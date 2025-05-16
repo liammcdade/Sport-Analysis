@@ -101,3 +101,5 @@ print("\nOverall Weighted Dominance Scores (Adjusted for Participation):")
 for idx, row in final_scores.iterrows():
     position = idx + 1
     print(f"{position:>2}. {row['Squad']}: {row['WeightedScore']:.4f}")
+
+
