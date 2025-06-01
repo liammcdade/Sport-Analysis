@@ -1,74 +1,84 @@
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import mean_squared_log_error
-from lightgbm import LGBMRegressor
+from sklearn.model_selection import StratifiedKFold
+from xgboost import XGBClassifier
+from sklearn.metrics import label_ranking_average_precision_score
+import optuna
 
+# === Load Data ===
+train = pd.read_csv("duck-calorie/train.csv")
+test = pd.read_csv("duck-calorie/test.csv")
 
-# Load your data
-train = pd.read_csv(r'duck-calorie\train.csv')
-test = pd.read_csv(r'duck-calorie\test.csv')
+# === Encode Categorical Features ===
+categorical_cols = ["Soil Type", "Crop Type"]
+encoders = {}
+for col in categorical_cols:
+    le = LabelEncoder()
+    train[col] = le.fit_transform(train[col])
+    test[col] = le.transform(test[col])
+    encoders[col] = le
 
-# Encode 'Sex'
-le = LabelEncoder()
-train['Sex'] = le.fit_transform(train['Sex'])
-test['Sex'] = le.transform(test['Sex'])
+# === Encode Target ===
+target_enc = LabelEncoder()
+train["target"] = target_enc.fit_transform(train["Fertilizer Name"])
 
-# Feature engineering
-train['BMI'] = train['Weight'] / (train['Height'] / 100) ** 2
-test['BMI'] = test['Weight'] / (test['Height'] / 100) ** 2
+X = train.drop(columns=["id", "Fertilizer Name", "target"])
+y = train["target"]
+X_test = test.drop(columns=["id"])
 
-train['HRxDur'] = train['Heart_Rate'] * train['Duration']
-test['HRxDur'] = test['Heart_Rate'] * test['Duration']
-
-train['TempxDur'] = train['Body_Temp'] * train['Duration']
-test['TempxDur'] = test['Body_Temp'] * test['Duration']
-
-# Features list
-features = ['Sex', 'Age', 'Height', 'Weight', 'Duration', 'Heart_Rate', 'Body_Temp', 'BMI', 'HRxDur', 'TempxDur']
-
-# Prepare data
-X = train[features]
-y = np.log1p(train['Calories'])  # log-transform target for RMSLE
-
-# Split data
-X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)
-
-# Model averaging setup
-val_preds = np.zeros(len(X_val))
-test_preds = np.zeros(len(test))
-
-seeds = [0, 42, 1337]
-
-for seed in seeds:
-    model = LGBMRegressor(
-        objective='regression',
-        learning_rate=0.03,
-        num_leaves=64,
-        max_depth=8,
-        min_child_samples=20,
-        subsample=0.7,
-        colsample_bytree=0.8,
-        n_estimators=600,
-        random_state=seed
+# === MAP@3 Calculation ===
+def map3(y_true, y_prob):
+    return label_ranking_average_precision_score(
+        np.eye(len(np.unique(y_true)))[y_true], y_prob
     )
-    model.fit(X_train, y_train)
-    
-    val_preds += model.predict(X_val) / len(seeds)
-    test_preds += model.predict(test[features]) / len(seeds)
 
-# Inverse transform predictions
-val_preds_exp = np.expm1(val_preds)
-y_val_exp = np.expm1(y_val)
+# === Objective Function for Optuna ===
+def objective(trial):
+    params = {
+        "n_estimators": trial.suggest_int("n_estimators", 100, 300),
+        "max_depth": trial.suggest_int("max_depth", 3, 10),
+        "learning_rate": trial.suggest_float("learning_rate", 0.01, 0.2),
+        "subsample": trial.suggest_float("subsample", 0.6, 1.0),
+        "colsample_bytree": trial.suggest_float("colsample_bytree", 0.6, 1.0),
+        "use_label_encoder": False,
+        "eval_metric": "mlogloss",
+        "tree_method": "hist"  # faster on CPU
+    }
 
-# RMSLE evaluation
-rmsle = np.sqrt(mean_squared_log_error(y_val_exp, val_preds_exp))
-print(f'Validation RMSLE: {rmsle:.5f}')
+    kf = StratifiedKFold(n_splits=3, shuffle=True, random_state=42)
+    map_scores = []
 
-# Clip negative predictions in test set
-test_preds_exp = np.clip(np.expm1(test_preds), 0, None)
+    for train_idx, val_idx in kf.split(X, y):
+        model = XGBClassifier(**params)
+        model.fit(X.iloc[train_idx], y.iloc[train_idx])
+        prob = model.predict_proba(X.iloc[val_idx])
+        score = map3(y.iloc[val_idx].values, prob)
+        map_scores.append(score)
 
-# Prepare submission
-submission = pd.DataFrame({'id': test['id'], 'Calories': test_preds_exp})
-submission.to_csv('submission.csv', index=False)
+    return np.mean(map_scores)
+
+# === Run Optuna Search ===
+study = optuna.create_study(direction="maximize")
+study.optimize(objective, n_trials=50, show_progress_bar=True)
+
+# === Train Final Model ===
+best_params = study.best_params
+best_params.update({"use_label_encoder": False, "eval_metric": "mlogloss", "tree_method": "hist"})
+final_model = XGBClassifier(**best_params)
+final_model.fit(X, y)
+
+# === Predict on Test Set ===
+probs = final_model.predict_proba(X_test)
+top3 = np.argsort(probs, axis=1)[:, -3:][:, ::-1]
+top3_labels = np.vectorize(lambda x: target_enc.inverse_transform([x])[0])(top3)
+
+# === Submission File ===
+submission = pd.DataFrame({
+    "id": test["id"],
+    "Top1": top3_labels[:, 0],
+    "Top2": top3_labels[:, 1],
+    "Top3": top3_labels[:, 2]
+})
+submission.to_csv("duck-calorie/fertilizer_submission.csv", index=False)
+print("Saved: duck-calorie/fertilizer_submission.csv")
