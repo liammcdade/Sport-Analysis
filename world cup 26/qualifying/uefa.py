@@ -621,4 +621,4 @@ def simulate_tournament(initial_standings, all_fixtures, num_simulations=5000):
 
 
 if __name__ == "__main__":
-    simulate_tournament(current_standings, remaining_fixtures, num_simulations=10000)
+    simulate_tournament(current_standings, remaining_fixtures, num_simulations=100)
