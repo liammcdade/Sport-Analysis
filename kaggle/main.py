@@ -1,139 +1,110 @@
-import csv
-import sys
-from collections import defaultdict
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import classification_report, accuracy_score
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+import numpy as np
 
-def _read_csv_data(csv_file_path):
-    cars_data = []
-    try:
-        with open(csv_file_path, mode='r', newline='', encoding='utf-8') as file:
-            reader = csv.DictReader(file)
-            required_headers = ['Model', 'Price', 'Rate']
-            if not all(header in reader.fieldnames for header in required_headers):
-                print(f"Error: CSV file must contain the following headers: {', '.join(required_headers)}")
-                return []
+print("Starting agricultural data analysis script...")
 
-            for row_num, row in enumerate(reader, start=2):
-                try:
-                    # Clean up price: remove $ and commas, strip whitespace
-                    price_str = row['Price'].replace('$', '').replace(',', '').strip()
-                    # Clean up rating: use 'Rate' column, fallback to 'Rating' if present
-                    rating_str = row.get('Rate', row.get('Rating', '')).strip()
-                    car = {
-                        "Model": row['Model'],
-                        "Price": int(price_str),
-                        "Rating": float(rating_str)
-                    }
-                    cars_data.append(car)
-                except ValueError as e:
-                    print(f"Warning: Skipping row {row_num} due to data type conversion error: {e}. Row data: {row}")
-                except KeyError as e:
-                    print(f"Warning: Skipping row {row_num} due to missing expected column: {e}. Row data: {row}")
-    except FileNotFoundError:
-        print(f"Error: The CSV file '{csv_file_path}' was not found.")
-        sys.exit(1)
-    except Exception as e:
-        print(f"An unexpected error occurred while reading the CSV file: {e}")
-        sys.exit(1)
-    
-    if not cars_data:
-        print("No valid car data found in the CSV file after processing.")
-    
-    return cars_data
-
-def _perform_analysis(cars_data):
-    analysis_results = {}
-
-    if not cars_data:
-        return analysis_results
-
-    total_price = sum(car['Price'] for car in cars_data)
-    analysis_results['average_price'] = total_price / len(cars_data)
-
-    total_rating = sum(car['Rating'] for car in cars_data)
-    analysis_results['average_rating'] = total_rating / len(cars_data)
-
-    analysis_results['most_expensive'] = max(cars_data, key=lambda x: x['Price'])
-    analysis_results['least_expensive'] = min(cars_data, key=lambda x: x['Price'])
-    analysis_results['highest_rated'] = max(cars_data, key=lambda x: x['Rating'])
-    analysis_results['lowest_rated'] = min(cars_data, key=lambda x: x['Rating'])
-
-    analysis_results['sorted_by_price'] = sorted(cars_data, key=lambda x: x['Price'])
-    analysis_results['sorted_by_rating'] = sorted(cars_data, key=lambda x: x['Rating'], reverse=True)
-
-    # --- Average dollar price per rating ---
-    # This is the total price divided by the total rating (not grouped)
-    if total_rating > 0:
-        analysis_results['average_price_per_rating'] = total_price / total_rating
-    else:
-        analysis_results['average_price_per_rating'] = None
-
-    # --- Average price per rating point (grouped, as before) ---
-    ratings_grouped_by_price = defaultdict(lambda: {'sum_price': 0, 'count': 0})
-    for car in cars_data:
-        rounded_rating = round(car['Rating'] * 10) / 10.0
-        ratings_grouped_by_price[rounded_rating]['sum_price'] += car['Price']
-        ratings_grouped_by_price[rounded_rating]['count'] += 1
-    
-    average_price_per_rating = {}
-    for rating, data in sorted(ratings_grouped_by_price.items()):
-        average_price_per_rating[rating] = data['sum_price'] / data['count']
-    
-    analysis_results['average_price_per_rating_point'] = average_price_per_rating
-
-    return analysis_results
-
-def _print_results(cars_data, analysis_results):
-    print("--- Mercedes Car Analysis ---")
-
-    print("\nAvailable Car Models (Model, Rate, Price):")
-    for car in cars_data:
-        print(f"  - {car['Model']}, Rate: {car['Rating']}/10, Price: ${car['Price']:,}")
-
-    if not analysis_results:
-        print("\nNo analysis results to display.")
-        return
-
-    print(f"\nAverage Price: ${analysis_results['average_price']:,.2f}")
-    print(f"Average Rate: {analysis_results['average_rating']:.2f}/10")
-
-    print(f"\nMost Expensive: {analysis_results['most_expensive']['Model']} (${analysis_results['most_expensive']['Price']:,})")
-    print(f"Least Expensive: {analysis_results['least_expensive']['Model']} (${analysis_results['least_expensive']['Price']:,})")
-    print(f"Highest Rated: {analysis_results['highest_rated']['Model']} ({analysis_results['highest_rated']['Rating']}/10)")
-    print(f"Lowest Rated: {analysis_results['lowest_rated']['Model']} ({analysis_results['lowest_rated']['Rating']}/10)")
+# --- 1. Loading Data from CSV Files ---
+# IMPORTANT: Replace 'train_data.csv' and 'test_data.csv' with the actual
+# paths to your files if they are not in the same directory as this script.
+try:
+    print("\nAttempting to load data from 'train_data.csv' and 'test_data.csv'...")
+    train_df = pd.read_csv('train_data.csv')
+    test_df = pd.read_csv('test_data.csv')
+    print("Data loaded successfully.")
+except FileNotFoundError as e:
+    print(f"Error: One or both CSV files not found. Please ensure 'train_data.csv' and 'test_data.csv' are in the correct directory.")
+    print(f"Details: {e}")
+    # Exit or handle the error appropriately if files are missing
+    exit() # Exiting for demonstration; in a real app, you might raise an error or prompt the user.
+except Exception as e:
+    print(f"An unexpected error occurred while loading CSV files: {e}")
+    exit()
 
 
+print("\nTrain DataFrame head:")
+print(train_df.head())
+print("\nTest DataFrame head:")
+print(test_df.head())
 
-    print("\n--- Average Price per Rating Point (0.1 increments) ---")
-    if analysis_results['average_price_per_rating_point']:
-        for rating, avg_price in analysis_results['average_price_per_rating_point'].items():
-            print(f"  - Rating {rating:.1f}/10: Average Price = ${avg_price:,.2f}")
-    else:
-        print("  No data to calculate average price per rating point.")
+# --- 2. Data Preprocessing ---
+# Define features (X) and target (y) for the training data
+# 'Fertilizer Name' is our target variable for prediction.
+# Ensure 'id' is dropped from features as it's typically just an identifier.
+X_train = train_df.drop(['Fertilizer Name', 'id'], axis=1)
+y_train = train_df['Fertilizer Name']
+X_test = test_df.drop('id', axis=1).copy() # Features for making predictions on the test set, dropping 'id'
 
-    print("\n--- Sorted Lists ---")
+# Identify categorical and numerical features based on your provided schema
+numerical_features = ['Temparature', 'Humidity', 'Moisture', 'Nitrogen', 'Potassium', 'Phosphorous']
+categorical_features = ['Soil Type', 'Crop Type']
 
-    print("\nSorted by Price (Ascending):")
-    for car in analysis_results['sorted_by_price']:
-        print(f"  - {car['Model']}, Price: ${car['Price']:,}")
+# Create a preprocessor using ColumnTransformer for one-hot encoding categorical features
+# and leaving numerical features untouched.
+preprocessor = ColumnTransformer(
+    transformers=[
+        ('num', 'passthrough', numerical_features),
+        ('cat', OneHotEncoder(handle_unknown='ignore'), categorical_features)
+    ],
+    remainder='drop' # Drop any columns not specified
+)
 
-    print("\nSorted by Rate (Descending):")
-    for car in analysis_results['sorted_by_rating']:
-        print(f"  - {car['Model']}, Rate: {car['Rating']}/10")
+# --- 3. Model Training ---
+print("\nTraining the Random Forest Classifier model...")
+# Create a pipeline that first preprocesses the data and then applies the classifier
+model_pipeline = Pipeline(steps=[
+    ('preprocessor', preprocessor),
+    ('classifier', RandomForestClassifier(n_estimators=100, random_state=42))
+])
 
-def analyze_mercedes_cars(csv_file_path='kaggle/car.csv'):
-    cars_data = _read_csv_data(csv_file_path)
-    if not cars_data:
-        return
+# Train the model
+model_pipeline.fit(X_train, y_train)
+print("Model training complete.")
 
-    analysis_results = _perform_analysis(cars_data)
+# Evaluate the model on the training data (optional, but good for sanity check)
+y_train_pred = model_pipeline.predict(X_train)
+print("\nTraining Set Evaluation:")
+print(f"Accuracy: {accuracy_score(y_train, y_train_pred):.2f}")
+print("Classification Report:\n", classification_report(y_train, y_train_pred))
 
-    _print_results(cars_data, analysis_results)
+# --- 4. Prediction on Test Data ---
+print("\nMaking predictions on the test data...")
+test_predictions = model_pipeline.predict(X_test)
 
-    # Print the average dollar price per rating at the bottom
-    if analysis_results.get('average_price_per_rating') is not None:
-        print(f"\n[Summary] Average Dollar Price Per Rating (all cars): ${analysis_results['average_price_per_rating']:,.2f} per rating point")
-    else:
-        print("\n[Summary] Average Dollar Price Per Rating (all cars): N/A")
+# Add predictions to the test DataFrame, aligning by original test_df index
+test_df['Predicted_Fertilizer_Name'] = test_predictions
+print("\nTest data with predictions:")
+print(test_df)
 
-if __name__ == "__main__":
-    analyze_mercedes_cars()
+# --- 5. Feature Importance Analysis ---
+# Access the trained classifier from the pipeline
+classifier = model_pipeline.named_steps['classifier']
+preprocessor_fitted = model_pipeline.named_steps['preprocessor']
+
+# Get feature names after one-hot encoding
+# The order of features will be numerical first, then one-hot encoded categorical.
+try:
+    # Ensure to use get_feature_names_out from the fitted preprocessor
+    onehot_features = preprocessor_fitted.named_transformers_['cat'].get_feature_names_out(categorical_features)
+    all_features = numerical_features + list(onehot_features)
+except AttributeError:
+    # Fallback for older scikit-learn versions or if get_feature_names_out is not available
+    print("Warning: Could not get precise one-hot encoded feature names. Using a simpler approach.")
+    all_features = numerical_features + categorical_features
+
+
+if hasattr(classifier, 'feature_importances_'):
+    print("\nFeature Importances (higher means more influential):")
+    feature_importances = pd.Series(classifier.feature_importances_, index=all_features)
+    # Sort for better readability
+    print(feature_importances.sort_values(ascending=False))
+else:
+    print("\nClassifier does not have 'feature_importances_' attribute (e.g., Logistic Regression).")
+
+print("\nAnalysis complete.")
+print("The 'test_df' now contains the 'Predicted_Fertilizer_Name' column.")
