@@ -97,7 +97,7 @@ all_group_matches_template = generate_all_group_matches_template(initial_teams_d
 
 # --- Player Data Loading ---
 def load_player_data(csv_path):
-    """Load player data from CSV file path and return as DataFrame."""
+    """Load player data from CSV file path and return as DataFrame ."""
     try:
         df = pd.read_csv(csv_path)
         return df

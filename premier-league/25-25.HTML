@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Premier League Odds Table</title>
+    <style>
+        body { font-family: 'Consolas', 'Courier New', monospace; background: #000; color: #0f0; margin: 0; padding: 0; }
+        .container { max-width: 900px; margin: 40px auto; background: #111; padding: 32px; border-radius: 10px; box-shadow: 0 2px 8px #222; }
+        h1 { text-align: center; color: #0f0; }
+        table { width: 100%; border-collapse: collapse; margin-top: 24px; background: #000; color: #0f0; }
+        th, td { padding: 8px 10px; border: 1px solid #0f0; text-align: center; }
+        th { background: #003300; color: #0f0; }
+        tr:nth-child(even) { background: #002200; }
+        tr:nth-child(odd) { background: #000; }
+        .win { font-weight: bold; color: #0f0; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Premier League Odds Table</h1>
+    <div id="table-output"></div>
+</div>
+<script>
+// Odds data (fractional odds as strings)
+const oddsDict = {
+    "Liverpool|Bournemouth": [["19/50", "2/5", "27/100", "2/5", "2/5", "2/5", "4/11", "27/100", "4/11", "31/100", "4/11", "2/5", "2/5", "1/3", "1/3", "1/4"],
+                              ["17/4", "19/5", "17/4", "4/1", "19/5", "17/4", "4/1", "17/4", "15/4", "23/5", "4/1", "4/1", "17/4", "4/1", "4/1", "3/1"],
+                              ["6/1", "11/2", "8/1", "13/2", "11/2", "6/1", "6/1", "8/1", "11/2", "7/1", "6/1", "5/1", "6/1", "13/2", "7/1", "647/100"]],
+    "Aston Villa|Newcastle": [["29/20", "7/5", "29/20", "6/4", "7/5", "29/20", "7/5", "29/20", "7/5", "29/20", "7/5", "7/5", "29/20", "6/4", "6/4", "6/5"],
+                              ["5/2", "5/2", "9/4", "13/5", "5/2", "13/5", "13/5", "9/4", "12/5", "49/20", "12/5", "5/2", "13/5", "5/2", "5/2", "2/1"],
+                              ["17/10", "13/8", "17/10", "7/4", "13/8", "13/8", "13/8", "17/10", "17/10", "168/100", "8/5", "13/8", "13/8", "13/8", "13/8", "7/5"]],
+    "Brighton|Fulham": [["10/11", "5/6", "17/20", "9/10", "5/6", "17/20", "17/20", "17/20", "4/5", "88/100", "5/6", "17/20", "17/20", "17/20", "17/20", "8/11"],
+                        ["12/5", "13/5", "47/20", "13/5", "13/5", "13/5", "13/5", "13/5", "13/5", "11/4", "21/10", "13/5", "13/5", "13/5", "13/5", "11/4"],
+                        ["3/1", "3/1", "29/10", "3/1", "3/1", "3/1", "14/5", "29/10", "3/1", "29/10", "14/5", "14/5", "3/1", "29/10", "14/5", "23/10"]],
+    "Nottm Forest|Brentford": [["2/1", "21/10"], ["9/4", "12/5"], ["13/10", "6/5"]],
+    "Sunderland|West Ham": [["9/4", "21/10", "11/5", "21/10", "21/10", "21/10", "2/1", "11/5", "11/5", "11/5", "21/10", "21/10", "11/5", "21/10", "21/10", "9/5"],
+                            ["23/10", "23/10", "9/4", "12/5", "23/10", "12/5", "5/2", "9/4", "23/10", "23/10", "9/4", "23/10", "12/5", "23/10", "23/10", "15/8"],
+                            ["6/5", "6/5", "23/20", "13/10", "6/5", "6/5", "6/5", "23/20", "6/5", "6/5", "23/20", "6/5", "5/4", "5/4", "5/4", "20/21"]],
+    "Tottenham|Burnley": [["8/13", "4/7"], ["3/1", "10/3"], ["9/2", "5/1"]],
+    "Wolves|Man City": [["6/1", "13/2"], ["7/2", "4/1"], ["2/5", "1/3"]],
+    "Chelsea|Crystal Palace": [["8/11", "4/5"], ["11/4", "5/2"], ["7/2", "4/1"]],
+    "Man Utd|Arsenal": [["7/4", "15/8"], ["12/5", "5/2"], ["6/4", "13/8"]],
+    "Leeds|Everton": [["11/8", "6/5"], ["9/4", "5/2"], ["2/1", "21/10"]],
+};
+
+function fracToDec(frac) {
+    if (typeof frac === 'string') {
+        frac = frac.replace(/\s/g, '');
+        if (frac.includes('/')) {
+            const [num, den] = frac.split('/').map(Number);
+            return num / den + 1;
+        } else if (frac.includes('.')) {
+            return parseFloat(frac) + 1;
+        } else {
+            return Number(frac) + 1;
+        }
+    }
+    return Number(frac) + 1;
+}
+
+function avgDecimal(oddsList) {
+    if (!Array.isArray(oddsList)) oddsList = [oddsList];
+    const decs = oddsList.map(fracToDec);
+    return decs.reduce((a, b) => a + b, 0) / decs.length;
+}
+
+function impliedProb(dec) {
+    return dec > 0 ? 1 / dec : 0;
+}
+
+function getFixtureResult(home, away) {
+    const key = `${home}|${away}`;
+    if (!(key in oddsDict)) return null;
+    const [homeOdds, drawOdds, awayOdds] = oddsDict[key];
+    const homeDec = avgDecimal(homeOdds);
+    const drawDec = avgDecimal(drawOdds);
+    const awayDec = avgDecimal(awayOdds);
+    let homeProb = impliedProb(homeDec);
+    let drawProb = impliedProb(drawDec);
+    let awayProb = impliedProb(awayDec);
+    const total = homeProb + drawProb + awayProb;
+    if (total > 0) {
+        homeProb /= total;
+        drawProb /= total;
+        awayProb /= total;
+    }
+    // If all probabilities are within 12% of each other, classify as draw
+    const probs = [homeProb, drawProb, awayProb];
+    if (Math.max(...probs) - Math.min(...probs) <= 0.12) {
+        return { home, away, homeProb, drawProb, awayProb, winner: 'DRAW' };
+    }
+    let winner = homeProb >= drawProb && homeProb >= awayProb ? home : (awayProb >= homeProb && awayProb >= drawProb ? away : 'DRAW');
+    return { home, away, homeProb, drawProb, awayProb, winner };
+}
+
+const fixtures = [
+    ["Liverpool", "Bournemouth"],
+    ["Aston Villa", "Newcastle"],
+    ["Brighton", "Fulham"],
+    ["Nottm Forest", "Brentford"],
+    ["Sunderland", "West Ham"],
+    ["Tottenham", "Burnley"],
+    ["Wolves", "Man City"],
+    ["Chelsea", "Crystal Palace"],
+    ["Man Utd", "Arsenal"],
+    ["Leeds", "Everton"],
+];
+
+// Collect all teams (ensure all teams in table)
+const teamsSet = new Set();
+fixtures.forEach(([h, a]) => { teamsSet.add(h); teamsSet.add(a); });
+const teams = Array.from(teamsSet).sort();
+
+// Build league table
+const table = {};
+teams.forEach(team => table[team] = { MP: 0, W: 0, D: 0, L: 0, Pts: 0, xGF: 0, xGA: 0, xGD: 0, WinProb: 0, DrawProb: 0, LossProb: 0 });
+
+fixtures.forEach(([home, away]) => {
+    const res = getFixtureResult(home, away);
+    if (!res) return;
+    const { homeProb, drawProb, awayProb, winner } = res;
+    // xG proxy
+    const home_xg = 2.0 * homeProb + 1.0 * drawProb;
+    const away_xg = 2.0 * awayProb + 1.0 * drawProb;
+    table[home].MP += 1;
+    table[away].MP += 1;
+    table[home].xGF += home_xg;
+    table[home].xGA += away_xg;
+    table[away].xGF += away_xg;
+    table[away].xGA += home_xg;
+    if (winner === home) {
+        table[home].W += 1; table[home].Pts += 3; table[away].L += 1;
+    } else if (winner === away) {
+        table[away].W += 1; table[away].Pts += 3; table[home].L += 1;
+    } else {
+        table[home].D += 1; table[away].D += 1; table[home].Pts += 1; table[away].Pts += 1;
+    }
+});
+
+// Calculate win/draw/loss percentages
+teams.forEach(team => {
+    const mp = table[team].MP || 1;
+    table[team].WinProb = table[team].W / mp;
+    table[team].DrawProb = table[team].D / mp;
+    table[team].LossProb = table[team].L / mp;
+    table[team].xGD = table[team].xGF - table[team].xGA;
+});
+
+// Sort by points, then xGD, then WinProb
+const sorted = Object.entries(table).sort((a, b) => {
+    if (b[1].Pts !== a[1].Pts) return b[1].Pts - a[1].Pts;
+    if (b[1].xGD !== a[1].xGD) return b[1].xGD - a[1].xGD;
+    return b[1].WinProb - a[1].WinProb;
+});
+
+// Render table
+let html = `<table><tr><th>Rk</th><th>Team</th><th>MP</th><th>W</th><th>D</th><th>L</th><th>Pts</th><th>xGF</th><th>xGA</th><th>xGD</th><th>Win%</th><th>Draw%</th><th>Loss%</th></tr>`;
+sorted.forEach(([team, stats], i) => {
+    html += `<tr><td>${i+1}</td><td>${team}</td><td>${stats.MP}</td><td>${stats.W}</td><td>${stats.D}</td><td>${stats.L}</td><td>${stats.Pts}</td><td>${stats.xGF.toFixed(2)}</td><td>${stats.xGA.toFixed(2)}</td><td>${stats.xGD.toFixed(2)}</td><td>${(stats.WinProb*100).toFixed(2)}</td><td>${(stats.DrawProb*100).toFixed(2)}</td><td>${(stats.LossProb*100).toFixed(2)}</td></tr>`;
+});
+html += `</table>`;
+document.getElementById('table-output').innerHTML = html;
+</script>
+</body>
+</html>
