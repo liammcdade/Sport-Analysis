@@ -1,0 +1,1 @@
+chess/main.py:611:1: E999 SyntaxError: expected 'except' or 'finally' block

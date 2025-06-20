@@ -1,0 +1,1 @@
+chess/main.py:84:19: E999 SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 0-4: truncated \uXXXX escape
