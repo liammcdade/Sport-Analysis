@@ -1,39 +1,55 @@
 import numpy as np
-import sys
 
-# Settings
-num_simulations = 50000  # More simulations
+# Constants
+omega = 7.292115e-5  # Earth's angular velocity (rad/s)
+latitude_deg = 40    # Approximate NFL stadium latitude
+latitude = np.radians(latitude_deg)
 
-# Initialize list to store results
-results = []
+def yards_to_meters(yards):
+    return yards * 0.9144
 
-print("Running Monte Carlo simulations... (Live updates below)\n")
+def flight_time(distance_m):
+    speed = 25  # m/s, rough average kick speed
+    return distance_m / speed if distance_m > 0 else 0
 
-for i in range(1, num_simulations + 1):
-    R_star = 1  # Only one star per solar system
-    # All other variables are random
-    f_p = np.random.uniform(0.1, 1.0)
-    n_e = np.random.uniform(0.05, 0.6)
-    f_l = 10 ** np.random.uniform(np.log10(0.005), np.log10(1))
-    f_i = 10 ** np.random.uniform(np.log10(0.0005), np.log10(1))
-    f_c = 10 ** np.random.uniform(np.log10(0.005), np.log10(0.3))
-    L = 10 ** np.random.uniform(np.log10(50), np.log10(20000))
+def coriolis_displacement(v, t, lat):
+    # d = omega * v * sin(lat) * t^2
+    return omega * v * np.sin(lat) * t**2  # meters
 
-    # Compute N
-    N = R_star * f_p * n_e * f_l * f_i * f_c * L
-    results.append(N)
+kick_distances_yards = np.arange(1, 71)  # 1 to 70 yards
 
-    if i % 1 == 0 or i == num_simulations:
-        avg_N = np.mean(results)
-        prob_N_ge_1 = np.mean(np.array(results) >= 1)
-        sys.stdout.write(f"\rSimulation {i} / {num_simulations} | Avg N: {avg_N:.2f} | P(N ≥ 1): {prob_N_ge_1:.2%}")
-        sys.stdout.flush()
+displacements_cm = []
 
-results = np.array(results)
-print("\n\n--- Simulation Complete ---")
-print(f"Simulations: {num_simulations}")
-print(f"Average N: {results.mean():.2f}")
-print(f"Median N: {np.median(results):.2f}")
-print(f"Probability N ≥ 1: {(results >= 1).mean():.2%}")
-print(f"Probability N ≥ 10: {(results >= 10).mean():.2%}")
-print(f"Probability N = 0: {(results == 0).mean():.2%}")
+for yards in kick_distances_yards:
+    d_m = yards_to_meters(yards)
+    t = flight_time(d_m)
+    d_lat = coriolis_displacement(25, t, latitude)
+    displacements_cm.append(d_lat * 100)  # cm
+
+print("Kick Distance (yards) | Coriolis Deflection (cm)")
+for yd, d_cm in zip(kick_distances_yards, displacements_cm):
+    print(f"{yd:>20} | {d_cm:.4f}")
+
+avg_deflection_cm = np.mean(displacements_cm)
+print(f"\nAverage Coriolis deflection over 1-70 yard kicks: {avg_deflection_cm:.4f} cm")
+
+
+percent_increases = []
+for i in range(1, len(displacements_cm)):
+    prev = displacements_cm[i-1]
+    curr = displacements_cm[i]
+    if prev == 0:
+        pct_inc = float('inf')  # Handle division by zero at 1 yard
+    else:
+        pct_inc = ((curr - prev) / prev) * 100
+    percent_increases.append(pct_inc)
+
+# Find biggest percentage increase (ignore infinity at start)
+filtered_increases = [p for p in percent_increases if p != float('inf')]
+max_increase = max(filtered_increases)
+max_index = percent_increases.index(max_increase) + 2  # +2 to get yard number after 1
+
+avg_increase = np.mean(filtered_increases)
+
+print(f"\nBiggest percentage increase: {max_increase:.2f}% from yard {max_index-1} to {max_index}")
+print(f"Average percentage increase per yard: {avg_increase:.2f}%")
