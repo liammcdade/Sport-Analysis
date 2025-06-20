@@ -1,0 +1,92 @@
+diff --git a/TIK-TAK-TOES/main.py b/TIK-TAK-TOES/main.py
+index addda43..0784cac 100644
+--- a/TIK-TAK-TOES/main.py
++++ b/TIK-TAK-TOES/main.py
+@@ -580,7 +580,7 @@ class ChessGUI:
+         elif result == "0-1":
+             white_score = 0.0
+
+-        black_score = 1.0 - white_score  # Black's score is opposite of White's
++        #         black_score = 1.0 - white_score  # Black's score is opposite of White's
+
+         # Calculate ELO changes
+         change_white, change_black = calculate_elo_change(
+diff --git a/chess/main.py b/chess/main.py
+index f699e0c..8a0250e 100644
+--- a/chess/main.py
++++ b/chess/main.py
+@@ -608,7 +608,7 @@ class ChessRLGUI:
+                 else:
+                     self.master.after(0, self.check_game_over)
+
+-            except chess.engine.EngineError as e:
++#             except chess.engine.EngineError as e:
+                 self.master.after(
+                     0,
+                     lambda: self.status_label.config(
+@@ -616,7 +616,7 @@ class ChessRLGUI:
+                     ),
+                 )
+                 self.master.after(0, lambda: self.master.config(cursor=""))
+-            except Exception as e:
++#             except Exception as e:
+                 self.master.after(
+                     0,
+                     lambda: self.status_label.config(
+@@ -637,7 +637,7 @@ class ChessRLGUI:
+         if random.uniform(0, 1) < epsilon_val:
+             return random.choice(legal_moves)
+
+-        best_move = None
++#         best_move = None
+         max_q_value = -float("inf")
+         candidate_moves = []
+
+@@ -838,7 +838,7 @@ class ChessRLGUI:
+             self.training_phase == "self_play_evaluation"
+             and self.games_in_current_phase >= self.self_play_games_per_phase
+         ):
+-            is_phase_complete = True
++#             is_phase_complete = True
+             self.training_phase = "stockfish_training"
+             self.games_in_current_phase = 0
+             self.status_label.config(text="Entering Stockfish Training Phase!")
+diff --git a/clubworldcup/main.py b/clubworldcup/main.py
+index e4e1fc1..79af2bb 100644
+--- a/clubworldcup/main.py
++++ b/clubworldcup/main.py
+@@ -547,7 +547,7 @@ def compute_team_streamy_score_with_weights(team, player_df, weights):
+     def normalize_name(name):
+         return str(name).replace(" ", "").lower()
+
+-    team_name_norm = normalize_name(team["name"])
++    #     team_name_norm = normalize_name(team["name"])
+     possible_names = [normalize_name(team["name"])]
+     if team["name"] in TEAM_COUNTRY_MAP:
+         possible_names += [normalize_name(n) for n in TEAM_COUNTRY_MAP[team["name"]]]
+diff --git a/premier-league/25-26-season.py b/premier-league/25-26-season.py
+index 7e3721d..82b1e5d 100644
+--- a/premier-league/25-26-season.py
++++ b/premier-league/25-26-season.py
+@@ -605,7 +605,7 @@ def main():
+         teams.add(away)
+     teams = sorted(teams)
+     # Generate and print league table
+-    league_table = generate_league_table_from_predictions(
++#     league_table = generate_league_table_from_predictions(
+         fixtures_to_predict, odds_dict, teams
+     )
+
+diff --git a/worldcup26/qualifying/uefa.py b/worldcup26/qualifying/uefa.py
+index 2e0ea82..9bc2f6d 100644
+--- a/worldcup26/qualifying/uefa.py
++++ b/worldcup26/qualifying/uefa.py
+@@ -650,7 +650,7 @@ def simulate_tournament(initial_standings, all_fixtures, num_simulations=5000):
+         ]
+     )
+
+-    all_simulated_group_results = []
++    #     all_simulated_group_results = []
+     all_runners_up = []
+
+     for _ in tqdm(range(num_simulations), desc="Simulating World Cup Qualifiers"):

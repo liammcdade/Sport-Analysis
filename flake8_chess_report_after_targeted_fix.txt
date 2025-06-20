@@ -1,0 +1,62 @@
+chess/main.py:21:80: E501 line too long (85 > 79 characters)
+chess/main.py:51:80: E501 line too long (82 > 79 characters)
+chess/main.py:55:80: E501 line too long (81 > 79 characters)
+chess/main.py:64:80: E501 line too long (88 > 79 characters)
+chess/main.py:68:80: E501 line too long (83 > 79 characters)
+chess/main.py:95:80: E501 line too long (102 > 79 characters)
+chess/main.py:96:80: E501 line too long (97 > 79 characters)
+chess/main.py:97:80: E501 line too long (97 > 79 characters)
+chess/main.py:204:80: E501 line too long (139 > 79 characters)
+chess/main.py:298:80: E501 line too long (81 > 79 characters)
+chess/main.py:302:80: E501 line too long (97 > 79 characters)
+chess/main.py:307:80: E501 line too long (85 > 79 characters)
+chess/main.py:315:80: E501 line too long (81 > 79 characters)
+chess/main.py:316:80: E501 line too long (86 > 79 characters)
+chess/main.py:345:80: E501 line too long (87 > 79 characters)
+chess/main.py:372:80: E501 line too long (87 > 79 characters)
+chess/main.py:375:80: E501 line too long (87 > 79 characters)
+chess/main.py:388:80: E501 line too long (85 > 79 characters)
+chess/main.py:412:80: E501 line too long (83 > 79 characters)
+chess/main.py:413:80: E501 line too long (86 > 79 characters)
+chess/main.py:415:21: F541 f-string is missing placeholders
+chess/main.py:417:26: F541 f-string is missing placeholders
+chess/main.py:423:32: F541 f-string is missing placeholders
+chess/main.py:443:80: E501 line too long (100 > 79 characters)
+chess/main.py:447:80: E501 line too long (83 > 79 characters)
+chess/main.py:461:80: E501 line too long (80 > 79 characters)
+chess/main.py:464:80: E501 line too long (142 > 79 characters)
+chess/main.py:470:80: E501 line too long (84 > 79 characters)
+chess/main.py:484:80: E501 line too long (86 > 79 characters)
+chess/main.py:486:80: E501 line too long (87 > 79 characters)
+chess/main.py:491:80: E501 line too long (87 > 79 characters)
+chess/main.py:494:80: E501 line too long (86 > 79 characters)
+chess/main.py:497:44: F541 f-string is missing placeholders
+chess/main.py:542:80: E501 line too long (83 > 79 characters)
+chess/main.py:556:42: F541 f-string is missing placeholders
+chess/main.py:556:80: E501 line too long (85 > 79 characters)
+chess/main.py:579:80: E501 line too long (86 > 79 characters)
+chess/main.py:611:13: F841 local variable 'e' is assigned to but never used
+chess/main.py:615:47: F821 undefined name 'e'
+chess/main.py:619:13: F841 local variable 'e' is assigned to but never used
+chess/main.py:623:64: F821 undefined name 'e'
+chess/main.py:630:80: E501 line too long (81 > 79 characters)
+chess/main.py:680:80: E501 line too long (88 > 79 characters)
+chess/main.py:682:80: E501 line too long (83 > 79 characters)
+chess/main.py:689:80: E501 line too long (87 > 79 characters)
+chess/main.py:693:80: E501 line too long (82 > 79 characters)
+chess/main.py:769:20: F821 undefined name 'filedialog'
+chess/main.py:789:17: F821 undefined name 'messagebox'
+chess/main.py:792:80: E501 line too long (82 > 79 characters)
+chess/main.py:803:80: E501 line too long (82 > 79 characters)
+chess/main.py:809:13: F821 undefined name 'messagebox'
+chess/main.py:811:80: E501 line too long (128 > 79 characters)
+chess/main.py:816:13: F821 undefined name 'messagebox'
+chess/main.py:818:80: E501 line too long (82 > 79 characters)
+chess/main.py:825:80: E501 line too long (86 > 79 characters)
+chess/main.py:827:13: F841 local variable 'is_phase_complete' is assigned to but never used
+chess/main.py:835:80: E501 line too long (81 > 79 characters)
+chess/main.py:861:80: E501 line too long (138 > 79 characters)
+chess/main.py:869:80: E501 line too long (84 > 79 characters)
+chess/main.py:894:80: E501 line too long (85 > 79 characters)
+chess/main.py:903:80: E501 line too long (81 > 79 characters)
+chess/main.py:904:80: E501 line too long (87 > 79 characters)

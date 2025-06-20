@@ -1,4 +1,3 @@
-import random
 import numpy as np
 from tqdm import tqdm
 
@@ -6,7 +5,7 @@ from tqdm import tqdm
 # Pld=46 for both as the full league season is over.
 team_stats = {
     "Charlton Athletic": {"Pld": 46, "GF": 67, "GA": 43, "Pts": 85},
-    "Leyton Orient": {"Pld": 46, "GF": 72, "GA": 48, "Pts": 78}
+    "Leyton Orient": {"Pld": 46, "GF": 72, "GA": 48, "Pts": 78},
 }
 
 # --- Simulation Parameters ---
@@ -19,6 +18,7 @@ draws = 0
 
 # --- Simulation Logic ---
 
+
 def simulate_goals_for_team(team_avg_gf, opponent_avg_ga):
     """
     Simulates goals scored by a team in a match using a Poisson distribution.
@@ -29,15 +29,26 @@ def simulate_goals_for_team(team_avg_gf, opponent_avg_ga):
     lambda_val = max(0, (team_avg_gf + opponent_avg_ga) / 2)
     return np.random.poisson(lambda_val)
 
-print(f"Simulating the Charlton Athletic vs Leyton Orient League One Play-Off Final {runs} times...\n")
+
+print(
+    f"Simulating the Charlton Athletic vs Leyton Orient League One Play-Off Final {runs} times...\n"
+)
 
 for _ in tqdm(range(runs), desc="Simulating Matches"):
     # Calculate average goals for/against based on full season stats
-    charlton_avg_gf = team_stats["Charlton Athletic"]["GF"] / team_stats["Charlton Athletic"]["Pld"]
-    charlton_avg_ga = team_stats["Charlton Athletic"]["GA"] / team_stats["Charlton Athletic"]["Pld"]
-    
-    orient_avg_gf = team_stats["Leyton Orient"]["GF"] / team_stats["Leyton Orient"]["Pld"]
-    orient_avg_ga = team_stats["Leyton Orient"]["GA"] / team_stats["Leyton Orient"]["Pld"]
+    charlton_avg_gf = (
+        team_stats["Charlton Athletic"]["GF"] / team_stats["Charlton Athletic"]["Pld"]
+    )
+    charlton_avg_ga = (
+        team_stats["Charlton Athletic"]["GA"] / team_stats["Charlton Athletic"]["Pld"]
+    )
+
+    orient_avg_gf = (
+        team_stats["Leyton Orient"]["GF"] / team_stats["Leyton Orient"]["Pld"]
+    )
+    orient_avg_ga = (
+        team_stats["Leyton Orient"]["GA"] / team_stats["Leyton Orient"]["Pld"]
+    )
 
     # Simulate goals for each team
     # Home/Away advantage is not explicitly modeled here as it's a neutral venue (Wembley).
@@ -69,5 +80,9 @@ print(f"Leyton Orient wins: {leyton_orient_wins} ({orient_win_percent:.2f}%)")
 print(f"Draws (after 90 mins): {draws} ({draw_percent:.2f}%)")
 
 print("\n--- Important Note for Play-Off Finals ---")
-print("This simulation predicts the outcome after 90 minutes. In a real play-off final, if the score is a draw, the match goes to extra time and potentially penalties to determine a winner.")
-print("The 'Draws' percentage above represents matches that would proceed to extra time.")
+print(
+    "This simulation predicts the outcome after 90 minutes. In a real play-off final, if the score is a draw, the match goes to extra time and potentially penalties to determine a winner."
+)
+print(
+    "The 'Draws' percentage above represents matches that would proceed to extra time."
+)

@@ -1,0 +1,1895 @@
+./F1/Main.py:17:1: E302 expected 2 blank lines, found 1
+./F1/Main.py:18:80: E501 line too long (110 > 79 characters)
+./F1/Main.py:22:80: E501 line too long (147 > 79 characters)
+./F1/Main.py:25:80: E501 line too long (96 > 79 characters)
+./F1/Main.py:32:80: E501 line too long (203 > 79 characters)
+./F1/Main.py:33:80: E501 line too long (202 > 79 characters)
+./F1/Main.py:34:80: E501 line too long (94 > 79 characters)
+./F1/Main.py:35:80: E501 line too long (166 > 79 characters)
+./F1/Main.py:36:80: E501 line too long (99 > 79 characters)
+./F1/Main.py:47:80: E501 line too long (98 > 79 characters)
+./F1/Main.py:52:80: E501 line too long (113 > 79 characters)
+./F1/Main.py:81:80: E501 line too long (80 > 79 characters)
+./F1/Main.py:84:1: E305 expected 2 blank lines after class or function definition, found 1
+./F1/Main.py:85:11: W292 no newline at end of file
+./HEALTH/LUNGCANCER.py:2:1: F401 'sklearn.ensemble.RandomForestClassifier' imported but unused
+./HEALTH/LUNGCANCER.py:3:1: F401 'sklearn.preprocessing.LabelEncoder' imported but unused
+./HEALTH/LUNGCANCER.py:4:1: F401 'matplotlib.pyplot as plt' imported but unused
+./HEALTH/LUNGCANCER.py:5:1: F401 'seaborn as sns' imported but unused
+./HEALTH/LUNGCANCER.py:6:1: F401 'tqdm.tqdm' imported but unused
+./HEALTH/LUNGCANCER.py:7:1: F811 redefinition of unused 'pd' from line 1
+./HEALTH/LUNGCANCER.py:10:80: E501 line too long (88 > 79 characters)
+./HEALTH/LUNGCANCER.py:14:80: E501 line too long (85 > 79 characters)
+./HEALTH/LUNGCANCER.py:29:80: E501 line too long (92 > 79 characters)
+./HEALTH/LUNGCANCER.py:57:80: E501 line too long (89 > 79 characters)
+./HEALTH/LUNGCANCER.py:61:44: W292 no newline at end of file
+./HEALTH/UKGP.py:4:80: E501 line too long (138 > 79 characters)
+./HEALTH/UKGP.py:10:80: E501 line too long (101 > 79 characters)
+./HEALTH/UKGP.py:11:80: E501 line too long (102 > 79 characters)
+./HEALTH/UKGP.py:16:80: E501 line too long (81 > 79 characters)
+./HEALTH/UKGP.py:17:80: E501 line too long (93 > 79 characters)
+./HEALTH/UKGP.py:21:80: E501 line too long (90 > 79 characters)
+./TIK-TAK-TOES/main.py:3:1: F401 'random' imported but unused
+./TIK-TAK-TOES/main.py:7:32: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:9:1: E302 expected 2 blank lines, found 1
+./TIK-TAK-TOES/main.py:16:80: E501 line too long (85 > 79 characters)
+./TIK-TAK-TOES/main.py:21:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:29:26: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:31:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:32:80: E501 line too long (102 > 79 characters)
+./TIK-TAK-TOES/main.py:39:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:40:31: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:47:80: E501 line too long (84 > 79 characters)
+./TIK-TAK-TOES/main.py:48:80: E501 line too long (93 > 79 characters)
+./TIK-TAK-TOES/main.py:49:80: E501 line too long (86 > 79 characters)
+./TIK-TAK-TOES/main.py:53:80: E501 line too long (88 > 79 characters)
+./TIK-TAK-TOES/main.py:54:42: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:57:18: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:64:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:65:80: E501 line too long (109 > 79 characters)
+./TIK-TAK-TOES/main.py:67:80: E501 line too long (95 > 79 characters)
+./TIK-TAK-TOES/main.py:68:80: E501 line too long (95 > 79 characters)
+./TIK-TAK-TOES/main.py:76:22: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:91:80: E501 line too long (103 > 79 characters)
+./TIK-TAK-TOES/main.py:96:46: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:99:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:103:25: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:108:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:122:26: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:124:14: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:134:26: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:143:80: E501 line too long (91 > 79 characters)
+./TIK-TAK-TOES/main.py:147:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:148:80: E501 line too long (88 > 79 characters)
+./TIK-TAK-TOES/main.py:158:9: E303 too many blank lines (2)
+./TIK-TAK-TOES/main.py:160:29: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:162:80: E501 line too long (115 > 79 characters)
+./TIK-TAK-TOES/main.py:163:80: E501 line too long (112 > 79 characters)
+./TIK-TAK-TOES/main.py:165:80: E501 line too long (115 > 79 characters)
+./TIK-TAK-TOES/main.py:166:24: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:169:42: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:173:18: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:173:80: E501 line too long (102 > 79 characters)
+./TIK-TAK-TOES/main.py:177:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:179:80: E501 line too long (164 > 79 characters)
+./TIK-TAK-TOES/main.py:184:80: E501 line too long (86 > 79 characters)
+./TIK-TAK-TOES/main.py:185:80: E501 line too long (101 > 79 characters)
+./TIK-TAK-TOES/main.py:188:80: E501 line too long (87 > 79 characters)
+./TIK-TAK-TOES/main.py:201:80: E501 line too long (104 > 79 characters)
+./TIK-TAK-TOES/main.py:202:80: E501 line too long (89 > 79 characters)
+./TIK-TAK-TOES/main.py:205:80: E501 line too long (87 > 79 characters)
+./TIK-TAK-TOES/main.py:207:80: E501 line too long (87 > 79 characters)
+./TIK-TAK-TOES/main.py:208:80: E501 line too long (91 > 79 characters)
+./TIK-TAK-TOES/main.py:210:41: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:211:33: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:211:80: E501 line too long (102 > 79 characters)
+./TIK-TAK-TOES/main.py:213:41: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:215:80: E501 line too long (103 > 79 characters)
+./TIK-TAK-TOES/main.py:216:80: E501 line too long (92 > 79 characters)
+./TIK-TAK-TOES/main.py:219:32: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:219:80: E501 line too long (95 > 79 characters)
+./TIK-TAK-TOES/main.py:223:80: E501 line too long (100 > 79 characters)
+./TIK-TAK-TOES/main.py:224:80: E501 line too long (85 > 79 characters)
+./TIK-TAK-TOES/main.py:225:80: E501 line too long (81 > 79 characters)
+./TIK-TAK-TOES/main.py:226:80: E501 line too long (81 > 79 characters)
+./TIK-TAK-TOES/main.py:227:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:229:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:230:80: E501 line too long (87 > 79 characters)
+./TIK-TAK-TOES/main.py:231:80: E501 line too long (89 > 79 characters)
+./TIK-TAK-TOES/main.py:233:80: E501 line too long (87 > 79 characters)
+./TIK-TAK-TOES/main.py:235:80: E501 line too long (92 > 79 characters)
+./TIK-TAK-TOES/main.py:237:80: E501 line too long (85 > 79 characters)
+./TIK-TAK-TOES/main.py:238:18: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:244:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:245:80: E501 line too long (115 > 79 characters)
+./TIK-TAK-TOES/main.py:250:22: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:253:80: E501 line too long (92 > 79 characters)
+./TIK-TAK-TOES/main.py:254:80: E501 line too long (89 > 79 characters)
+./TIK-TAK-TOES/main.py:255:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:257:80: E501 line too long (85 > 79 characters)
+./TIK-TAK-TOES/main.py:258:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:259:80: E501 line too long (134 > 79 characters)
+./TIK-TAK-TOES/main.py:275:80: E501 line too long (92 > 79 characters)
+./TIK-TAK-TOES/main.py:282:25: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:285:1: E302 expected 2 blank lines, found 1
+./TIK-TAK-TOES/main.py:289:39: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:294:30: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:297:33: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:300:36: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:301:31: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:302:37: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:302:80: E501 line too long (83 > 79 characters)
+./TIK-TAK-TOES/main.py:303:37: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:303:80: E501 line too long (83 > 79 characters)
+./TIK-TAK-TOES/main.py:307:37: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:310:9: E303 too many blank lines (2)
+./TIK-TAK-TOES/main.py:311:80: E501 line too long (105 > 79 characters)
+./TIK-TAK-TOES/main.py:315:80: E501 line too long (93 > 79 characters)
+./TIK-TAK-TOES/main.py:321:80: E501 line too long (122 > 79 characters)
+./TIK-TAK-TOES/main.py:323:80: E501 line too long (122 > 79 characters)
+./TIK-TAK-TOES/main.py:329:80: E501 line too long (101 > 79 characters)
+./TIK-TAK-TOES/main.py:331:80: E501 line too long (101 > 79 characters)
+./TIK-TAK-TOES/main.py:335:9: E303 too many blank lines (2)
+./TIK-TAK-TOES/main.py:339:80: E501 line too long (99 > 79 characters)
+./TIK-TAK-TOES/main.py:341:80: E501 line too long (85 > 79 characters)
+./TIK-TAK-TOES/main.py:345:80: E501 line too long (133 > 79 characters)
+./TIK-TAK-TOES/main.py:348:80: E501 line too long (136 > 79 characters)
+./TIK-TAK-TOES/main.py:350:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:356:80: E501 line too long (87 > 79 characters)
+./TIK-TAK-TOES/main.py:365:80: E501 line too long (136 > 79 characters)
+./TIK-TAK-TOES/main.py:368:54: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:370:80: E501 line too long (204 > 79 characters)
+./TIK-TAK-TOES/main.py:371:41: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:406:73: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:406:80: E501 line too long (97 > 79 characters)
+./TIK-TAK-TOES/main.py:407:80: E501 line too long (87 > 79 characters)
+./TIK-TAK-TOES/main.py:410:80: E501 line too long (89 > 79 characters)
+./TIK-TAK-TOES/main.py:411:37: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:418:52: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:418:80: E501 line too long (96 > 79 characters)
+./TIK-TAK-TOES/main.py:422:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:423:60: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:423:80: E501 line too long (94 > 79 characters)
+./TIK-TAK-TOES/main.py:424:80: E501 line too long (101 > 79 characters)
+./TIK-TAK-TOES/main.py:427:80: E501 line too long (82 > 79 characters)
+./TIK-TAK-TOES/main.py:428:80: E501 line too long (82 > 79 characters)
+./TIK-TAK-TOES/main.py:431:80: E501 line too long (189 > 79 characters)
+./TIK-TAK-TOES/main.py:432:80: E501 line too long (189 > 79 characters)
+./TIK-TAK-TOES/main.py:437:5: E303 too many blank lines (2)
+./TIK-TAK-TOES/main.py:441:80: E501 line too long (97 > 79 characters)
+./TIK-TAK-TOES/main.py:443:80: E501 line too long (95 > 79 characters)
+./TIK-TAK-TOES/main.py:445:80: E501 line too long (102 > 79 characters)
+./TIK-TAK-TOES/main.py:447:80: E501 line too long (93 > 79 characters)
+./TIK-TAK-TOES/main.py:449:80: E501 line too long (100 > 79 characters)
+./TIK-TAK-TOES/main.py:451:80: E501 line too long (82 > 79 characters)
+./TIK-TAK-TOES/main.py:453:80: E501 line too long (88 > 79 characters)
+./TIK-TAK-TOES/main.py:454:80: E501 line too long (116 > 79 characters)
+./TIK-TAK-TOES/main.py:461:80: E501 line too long (90 > 79 characters)
+./TIK-TAK-TOES/main.py:464:80: E501 line too long (91 > 79 characters)
+./TIK-TAK-TOES/main.py:471:32: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:472:28: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:477:43: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:478:43: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:480:80: E501 line too long (123 > 79 characters)
+./TIK-TAK-TOES/main.py:484:37: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:485:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:487:26: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:492:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:493:9: F841 local variable 'black_score' is assigned to but never used
+./TIK-TAK-TOES/main.py:493:40: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:504:80: E501 line too long (92 > 79 characters)
+./TIK-TAK-TOES/main.py:505:80: E501 line too long (92 > 79 characters)
+./TIK-TAK-TOES/main.py:507:80: E501 line too long (83 > 79 characters)
+./TIK-TAK-TOES/main.py:511:80: E501 line too long (118 > 79 characters)
+./TIK-TAK-TOES/main.py:513:80: E501 line too long (118 > 79 characters)
+./TIK-TAK-TOES/main.py:515:80: E501 line too long (153 > 79 characters)
+./TIK-TAK-TOES/main.py:516:37: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:524:80: E501 line too long (136 > 79 characters)
+./TIK-TAK-TOES/main.py:527:80: E501 line too long (120 > 79 characters)
+./TIK-TAK-TOES/main.py:532:9: E303 too many blank lines (2)
+./TIK-TAK-TOES/main.py:532:36: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:536:59: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:536:80: E501 line too long (87 > 79 characters)
+./TIK-TAK-TOES/main.py:537:55: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:537:80: E501 line too long (83 > 79 characters)
+./TIK-TAK-TOES/main.py:539:80: E501 line too long (92 > 79 characters)
+./TIK-TAK-TOES/main.py:541:80: E501 line too long (92 > 79 characters)
+./TIK-TAK-TOES/main.py:542:80: E501 line too long (120 > 79 characters)
+./TIK-TAK-TOES/main.py:544:80: E501 line too long (92 > 79 characters)
+./TIK-TAK-TOES/main.py:545:80: E501 line too long (120 > 79 characters)
+./TIK-TAK-TOES/main.py:546:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:549:72: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:549:80: E501 line too long (99 > 79 characters)
+./TIK-TAK-TOES/main.py:553:5: E303 too many blank lines (2)
+./TIK-TAK-TOES/main.py:559:80: E501 line too long (87 > 79 characters)
+./TIK-TAK-TOES/main.py:560:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:563:80: E501 line too long (131 > 79 characters)
+./TIK-TAK-TOES/main.py:564:39: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:568:80: E501 line too long (91 > 79 characters)
+./TIK-TAK-TOES/main.py:576:80: E501 line too long (97 > 79 characters)
+./TIK-TAK-TOES/main.py:577:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:580:80: E501 line too long (92 > 79 characters)
+./TIK-TAK-TOES/main.py:583:13: E303 too many blank lines (2)
+./TIK-TAK-TOES/main.py:585:80: E501 line too long (85 > 79 characters)
+./TIK-TAK-TOES/main.py:588:80: E501 line too long (119 > 79 characters)
+./TIK-TAK-TOES/main.py:590:80: E501 line too long (96 > 79 characters)
+./TIK-TAK-TOES/main.py:593:80: E501 line too long (94 > 79 characters)
+./TIK-TAK-TOES/main.py:594:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:596:80: E501 line too long (84 > 79 characters)
+./TIK-TAK-TOES/main.py:597:77: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:597:80: E501 line too long (113 > 79 characters)
+./TIK-TAK-TOES/main.py:598:80: E501 line too long (84 > 79 characters)
+./TIK-TAK-TOES/main.py:603:80: E501 line too long (104 > 79 characters)
+./TIK-TAK-TOES/main.py:605:80: E501 line too long (129 > 79 characters)
+./TIK-TAK-TOES/main.py:606:80: E501 line too long (101 > 79 characters)
+./TIK-TAK-TOES/main.py:607:56: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:607:80: E501 line too long (109 > 79 characters)
+./TIK-TAK-TOES/main.py:608:80: E501 line too long (129 > 79 characters)
+./TIK-TAK-TOES/main.py:608:90: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:609:26: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:610:80: E501 line too long (126 > 79 characters)
+./TIK-TAK-TOES/main.py:610:87: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:611:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:613:80: E501 line too long (101 > 79 characters)
+./TIK-TAK-TOES/main.py:614:80: E501 line too long (114 > 79 characters)
+./TIK-TAK-TOES/main.py:615:80: E501 line too long (128 > 79 characters)
+./TIK-TAK-TOES/main.py:617:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:618:80: E501 line too long (97 > 79 characters)
+./TIK-TAK-TOES/main.py:619:80: E501 line too long (155 > 79 characters)
+./TIK-TAK-TOES/main.py:620:80: E501 line too long (138 > 79 characters)
+./TIK-TAK-TOES/main.py:621:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:622:80: E501 line too long (97 > 79 characters)
+./TIK-TAK-TOES/main.py:623:80: E501 line too long (86 > 79 characters)
+./TIK-TAK-TOES/main.py:625:80: E501 line too long (108 > 79 characters)
+./TIK-TAK-TOES/main.py:626:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:627:71: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:627:80: E501 line too long (102 > 79 characters)
+./TIK-TAK-TOES/main.py:629:80: E501 line too long (143 > 79 characters)
+./TIK-TAK-TOES/main.py:632:17: E303 too many blank lines (2)
+./TIK-TAK-TOES/main.py:634:80: E501 line too long (130 > 79 characters)
+./TIK-TAK-TOES/main.py:635:40: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:638:80: E501 line too long (96 > 79 characters)
+./TIK-TAK-TOES/main.py:640:36: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:647:36: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:650:80: E501 line too long (92 > 79 characters)
+./TIK-TAK-TOES/main.py:656:80: E501 line too long (103 > 79 characters)
+./TIK-TAK-TOES/main.py:657:80: E501 line too long (103 > 79 characters)
+./TIK-TAK-TOES/main.py:663:75: W291 trailing whitespace
+./TIK-TAK-TOES/main.py:665:17: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:666:1: W293 blank line contains whitespace
+./TIK-TAK-TOES/main.py:668:1: E305 expected 2 blank lines after class or function definition, found 1
+./TIK-TAK-TOES/main.py:671:80: E501 line too long (100 > 79 characters)
+./TIK-TAK-TOES/main.py:673:80: E501 line too long (110 > 79 characters)
+./TIK-TAK-TOES/main.py:675:46: W605 invalid escape sequence '\s'
+./TIK-TAK-TOES/main.py:675:61: W291 trailing whitespace
+./TIK-TAK-TOES/main.py:678:70: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:678:80: E501 line too long (94 > 79 characters)
+./TIK-TAK-TOES/main.py:679:70: E261 at least two spaces before inline comment
+./TIK-TAK-TOES/main.py:679:80: E501 line too long (94 > 79 characters)
+./TIK-TAK-TOES/main.py:682:80: E501 line too long (91 > 79 characters)
+./TIK-TAK-TOES/main.py:684:1: W391 blank line at end of file
+./chess/main.py:2:1: F401 'tkinter.simpledialog' imported but unused
+./chess/main.py:8:1: F401 'time' imported but unused
+./chess/main.py:9:1: F401 'datetime' imported but unused
+./chess/main.py:11:1: F401 'copy' imported but unused
+./chess/main.py:11:12: E261 at least two spaces before inline comment
+./chess/main.py:13:1: E302 expected 2 blank lines, found 1
+./chess/main.py:17:41: E261 at least two spaces before inline comment
+./chess/main.py:24:49: E261 at least two spaces before inline comment
+./chess/main.py:24:80: E501 line too long (84 > 79 characters)
+./chess/main.py:34:26: E261 at least two spaces before inline comment
+./chess/main.py:39:40: E261 at least two spaces before inline comment
+./chess/main.py:40:42: E261 at least two spaces before inline comment
+./chess/main.py:44:37: E261 at least two spaces before inline comment
+./chess/main.py:51:30: E261 at least two spaces before inline comment
+./chess/main.py:52:31: E261 at least two spaces before inline comment
+./chess/main.py:53:30: E261 at least two spaces before inline comment
+./chess/main.py:53:80: E501 line too long (97 > 79 characters)
+./chess/main.py:56:41: E261 at least two spaces before inline comment
+./chess/main.py:56:80: E501 line too long (80 > 79 characters)
+./chess/main.py:63:31: E261 at least two spaces before inline comment
+./chess/main.py:65:80: E501 line too long (88 > 79 characters)
+./chess/main.py:66:39: W291 trailing whitespace
+./chess/main.py:69:39: E261 at least two spaces before inline comment
+./chess/main.py:69:80: E501 line too long (82 > 79 characters)
+./chess/main.py:70:43: E261 at least two spaces before inline comment
+./chess/main.py:78:80: E501 line too long (101 > 79 characters)
+./chess/main.py:79:80: E501 line too long (101 > 79 characters)
+./chess/main.py:86:80: E501 line too long (102 > 79 characters)
+./chess/main.py:87:80: E501 line too long (97 > 79 characters)
+./chess/main.py:88:80: E501 line too long (97 > 79 characters)
+./chess/main.py:91:9: E303 too many blank lines (2)
+./chess/main.py:92:80: E501 line too long (103 > 79 characters)
+./chess/main.py:98:80: E501 line too long (103 > 79 characters)
+./chess/main.py:102:80: E501 line too long (138 > 79 characters)
+./chess/main.py:107:80: E501 line too long (183 > 79 characters)
+./chess/main.py:110:80: E501 line too long (175 > 79 characters)
+./chess/main.py:113:80: E501 line too long (164 > 79 characters)
+./chess/main.py:116:80: E501 line too long (150 > 79 characters)
+./chess/main.py:119:80: E501 line too long (116 > 79 characters)
+./chess/main.py:122:80: E501 line too long (142 > 79 characters)
+./chess/main.py:125:80: E501 line too long (155 > 79 characters)
+./chess/main.py:128:80: E501 line too long (184 > 79 characters)
+./chess/main.py:131:80: E501 line too long (193 > 79 characters)
+./chess/main.py:132:49: E127 continuation line over-indented for visual indent
+./chess/main.py:132:80: E501 line too long (111 > 79 characters)
+./chess/main.py:136:9: E303 too many blank lines (2)
+./chess/main.py:137:80: E501 line too long (100 > 79 characters)
+./chess/main.py:138:41: E128 continuation line under-indented for visual indent
+./chess/main.py:138:80: E501 line too long (93 > 79 characters)
+./chess/main.py:139:41: E128 continuation line under-indented for visual indent
+./chess/main.py:139:80: E501 line too long (93 > 79 characters)
+./chess/main.py:140:41: E128 continuation line under-indented for visual indent
+./chess/main.py:140:80: E501 line too long (95 > 79 characters)
+./chess/main.py:141:41: E128 continuation line under-indented for visual indent
+./chess/main.py:144:80: E501 line too long (128 > 79 characters)
+./chess/main.py:145:80: E501 line too long (99 > 79 characters)
+./chess/main.py:146:80: E501 line too long (99 > 79 characters)
+./chess/main.py:147:80: E501 line too long (101 > 79 characters)
+./chess/main.py:151:80: E501 line too long (116 > 79 characters)
+./chess/main.py:152:45: E127 continuation line over-indented for visual indent
+./chess/main.py:152:80: E501 line too long (97 > 79 characters)
+./chess/main.py:153:45: E127 continuation line over-indented for visual indent
+./chess/main.py:153:80: E501 line too long (97 > 79 characters)
+./chess/main.py:154:45: E127 continuation line over-indented for visual indent
+./chess/main.py:154:80: E501 line too long (99 > 79 characters)
+./chess/main.py:155:45: E127 continuation line over-indented for visual indent
+./chess/main.py:158:80: E501 line too long (117 > 79 characters)
+./chess/main.py:159:45: E128 continuation line under-indented for visual indent
+./chess/main.py:159:80: E501 line too long (97 > 79 characters)
+./chess/main.py:160:45: E128 continuation line under-indented for visual indent
+./chess/main.py:160:80: E501 line too long (97 > 79 characters)
+./chess/main.py:161:45: E128 continuation line under-indented for visual indent
+./chess/main.py:161:80: E501 line too long (99 > 79 characters)
+./chess/main.py:162:45: E128 continuation line under-indented for visual indent
+./chess/main.py:169:80: E501 line too long (123 > 79 characters)
+./chess/main.py:170:80: E501 line too long (81 > 79 characters)
+./chess/main.py:173:80: E501 line too long (119 > 79 characters)
+./chess/main.py:176:80: E501 line too long (107 > 79 characters)
+./chess/main.py:182:34: E261 at least two spaces before inline comment
+./chess/main.py:183:36: E261 at least two spaces before inline comment
+./chess/main.py:183:80: E501 line too long (80 > 79 characters)
+./chess/main.py:184:32: E261 at least two spaces before inline comment
+./chess/main.py:184:80: E501 line too long (85 > 79 characters)
+./chess/main.py:186:80: E501 line too long (97 > 79 characters)
+./chess/main.py:205:80: E501 line too long (107 > 79 characters)
+./chess/main.py:206:80: E501 line too long (113 > 79 characters)
+./chess/main.py:209:80: E501 line too long (91 > 79 characters)
+./chess/main.py:210:80: E501 line too long (98 > 79 characters)
+./chess/main.py:213:80: E501 line too long (92 > 79 characters)
+./chess/main.py:214:80: E501 line too long (98 > 79 characters)
+./chess/main.py:221:80: E501 line too long (98 > 79 characters)
+./chess/main.py:222:80: E501 line too long (98 > 79 characters)
+./chess/main.py:234:80: E501 line too long (85 > 79 characters)
+./chess/main.py:237:80: E501 line too long (95 > 79 characters)
+./chess/main.py:239:80: E501 line too long (96 > 79 characters)
+./chess/main.py:249:29: E261 at least two spaces before inline comment
+./chess/main.py:249:80: E501 line too long (92 > 79 characters)
+./chess/main.py:253:43: E261 at least two spaces before inline comment
+./chess/main.py:253:80: E501 line too long (82 > 79 characters)
+./chess/main.py:254:49: E261 at least two spaces before inline comment
+./chess/main.py:254:80: E501 line too long (85 > 79 characters)
+./chess/main.py:255:32: F541 f-string is missing placeholders
+./chess/main.py:255:80: E501 line too long (129 > 79 characters)
+./chess/main.py:255:112: F541 f-string is missing placeholders
+./chess/main.py:256:38: E261 at least two spaces before inline comment
+./chess/main.py:259:18: E261 at least two spaces before inline comment
+./chess/main.py:260:32: F541 f-string is missing placeholders
+./chess/main.py:261:37: E261 at least two spaces before inline comment
+./chess/main.py:265:1: W293 blank line contains whitespace
+./chess/main.py:267:14: E127 continuation line over-indented for visual indent
+./chess/main.py:268:14: E127 continuation line over-indented for visual indent
+./chess/main.py:269:14: E127 continuation line over-indented for visual indent
+./chess/main.py:270:14: E127 continuation line over-indented for visual indent
+./chess/main.py:274:33: E261 at least two spaces before inline comment
+./chess/main.py:278:80: E501 line too long (100 > 79 characters)
+./chess/main.py:281:80: E501 line too long (93 > 79 characters)
+./chess/main.py:286:1: W293 blank line contains whitespace
+./chess/main.py:293:80: E501 line too long (112 > 79 characters)
+./chess/main.py:294:80: E501 line too long (173 > 79 characters)
+./chess/main.py:299:80: E501 line too long (84 > 79 characters)
+./chess/main.py:300:64: E261 at least two spaces before inline comment
+./chess/main.py:300:80: E501 line too long (108 > 79 characters)
+./chess/main.py:304:80: E501 line too long (97 > 79 characters)
+./chess/main.py:309:80: E501 line too long (86 > 79 characters)
+./chess/main.py:311:80: E501 line too long (87 > 79 characters)
+./chess/main.py:312:1: W293 blank line contains whitespace
+./chess/main.py:316:80: E501 line too long (87 > 79 characters)
+./chess/main.py:319:80: E501 line too long (86 > 79 characters)
+./chess/main.py:322:44: F541 f-string is missing placeholders
+./chess/main.py:328:80: E501 line too long (96 > 79 characters)
+./chess/main.py:330:80: E501 line too long (94 > 79 characters)
+./chess/main.py:332:80: E501 line too long (93 > 79 characters)
+./chess/main.py:345:80: E501 line too long (97 > 79 characters)
+./chess/main.py:346:80: E501 line too long (102 > 79 characters)
+./chess/main.py:353:80: E501 line too long (106 > 79 characters)
+./chess/main.py:354:1: W293 blank line contains whitespace
+./chess/main.py:355:80: E501 line too long (83 > 79 characters)
+./chess/main.py:359:80: E501 line too long (93 > 79 characters)
+./chess/main.py:360:80: E501 line too long (109 > 79 characters)
+./chess/main.py:360:110: W291 trailing whitespace
+./chess/main.py:362:80: E501 line too long (142 > 79 characters)
+./chess/main.py:362:88: F541 f-string is missing placeholders
+./chess/main.py:363:1: W293 blank line contains whitespace
+./chess/main.py:369:22: E261 at least two spaces before inline comment
+./chess/main.py:372:80: E501 line too long (89 > 79 characters)
+./chess/main.py:376:80: E501 line too long (115 > 79 characters)
+./chess/main.py:378:30: E111 indentation is not a multiple of 4
+./chess/main.py:378:30: E117 over-indented
+./chess/main.py:378:80: E501 line too long (87 > 79 characters)
+./chess/main.py:381:80: E501 line too long (126 > 79 characters)
+./chess/main.py:386:80: E501 line too long (139 > 79 characters)
+./chess/main.py:386:140: W291 trailing whitespace
+./chess/main.py:392:64: E261 at least two spaces before inline comment
+./chess/main.py:392:80: E501 line too long (89 > 79 characters)
+./chess/main.py:396:13: F841 local variable 'e' is assigned to but never used
+./chess/main.py:397:80: E501 line too long (107 > 79 characters)
+./chess/main.py:397:93: F821 undefined name 'e'
+./chess/main.py:399:13: F841 local variable 'e' is assigned to but never used
+./chess/main.py:400:80: E501 line too long (124 > 79 characters)
+./chess/main.py:400:110: F821 undefined name 'e'
+./chess/main.py:405:80: E501 line too long (81 > 79 characters)
+./chess/main.py:415:9: F841 local variable 'best_move' is assigned to but never used
+./chess/main.py:435:80: E501 line too long (109 > 79 characters)
+./chess/main.py:450:80: E501 line too long (98 > 79 characters)
+./chess/main.py:451:80: E501 line too long (88 > 79 characters)
+./chess/main.py:453:80: E501 line too long (83 > 79 characters)
+./chess/main.py:457:1: W293 blank line contains whitespace
+./chess/main.py:460:80: E501 line too long (87 > 79 characters)
+./chess/main.py:463:17: E303 too many blank lines (2)
+./chess/main.py:464:80: E501 line too long (129 > 79 characters)
+./chess/main.py:466:1: W293 blank line contains whitespace
+./chess/main.py:547:80: E501 line too long (91 > 79 characters)
+./chess/main.py:553:80: E501 line too long (101 > 79 characters)
+./chess/main.py:555:80: E501 line too long (94 > 79 characters)
+./chess/main.py:556:80: E501 line too long (82 > 79 characters)
+./chess/main.py:567:80: E501 line too long (82 > 79 characters)
+./chess/main.py:570:80: E501 line too long (99 > 79 characters)
+./chess/main.py:571:80: E501 line too long (161 > 79 characters)
+./chess/main.py:575:80: E501 line too long (119 > 79 characters)
+./chess/main.py:579:80: E501 line too long (130 > 79 characters)
+./chess/main.py:588:80: E501 line too long (81 > 79 characters)
+./chess/main.py:589:1: W293 blank line contains whitespace
+./chess/main.py:590:80: E501 line too long (125 > 79 characters)
+./chess/main.py:591:13: F841 local variable 'is_phase_complete' is assigned to but never used
+./chess/main.py:599:80: E501 line too long (99 > 79 characters)
+./chess/main.py:599:100: W291 trailing whitespace
+./chess/main.py:600:45: E127 continuation line over-indented for visual indent
+./chess/main.py:600:80: E501 line too long (179 > 79 characters)
+./chess/main.py:601:80: E501 line too long (95 > 79 characters)
+./chess/main.py:602:80: E501 line too long (169 > 79 characters)
+./chess/main.py:608:1: W293 blank line contains whitespace
+./chess/main.py:609:80: E501 line too long (84 > 79 characters)
+./chess/main.py:609:85: W291 trailing whitespace
+./chess/main.py:615:52: E261 at least two spaces before inline comment
+./chess/main.py:620:50: E261 at least two spaces before inline comment
+./chess/main.py:633:80: E501 line too long (105 > 79 characters)
+./chess/main.py:641:80: E501 line too long (81 > 79 characters)
+./chess/main.py:642:80: E501 line too long (87 > 79 characters)
+./chess/main.py:643:80: E501 line too long (91 > 79 characters)
+./chess/main.py:644:80: E501 line too long (95 > 79 characters)
+./chess/main.py:647:1: E305 expected 2 blank lines after class or function definition, found 1
+./chess/main.py:657:1: W293 blank line contains whitespace
+./clubworldcup/main.py:3:1: F401 're' imported but unused
+./clubworldcup/main.py:5:1: F401 'io' imported but unused
+./clubworldcup/main.py:19:80: E501 line too long (93 > 79 characters)
+./clubworldcup/main.py:21:80: E501 line too long (95 > 79 characters)
+./clubworldcup/main.py:22:80: E501 line too long (177 > 79 characters)
+./clubworldcup/main.py:23:80: E501 line too long (176 > 79 characters)
+./clubworldcup/main.py:24:80: E501 line too long (179 > 79 characters)
+./clubworldcup/main.py:25:80: E501 line too long (183 > 79 characters)
+./clubworldcup/main.py:28:80: E501 line too long (187 > 79 characters)
+./clubworldcup/main.py:29:80: E501 line too long (183 > 79 characters)
+./clubworldcup/main.py:30:80: E501 line too long (176 > 79 characters)
+./clubworldcup/main.py:31:80: E501 line too long (184 > 79 characters)
+./clubworldcup/main.py:34:80: E501 line too long (183 > 79 characters)
+./clubworldcup/main.py:35:80: E501 line too long (176 > 79 characters)
+./clubworldcup/main.py:36:80: E501 line too long (181 > 79 characters)
+./clubworldcup/main.py:37:80: E501 line too long (184 > 79 characters)
+./clubworldcup/main.py:40:80: E501 line too long (177 > 79 characters)
+./clubworldcup/main.py:41:80: E501 line too long (179 > 79 characters)
+./clubworldcup/main.py:42:80: E501 line too long (196 > 79 characters)
+./clubworldcup/main.py:43:80: E501 line too long (183 > 79 characters)
+./clubworldcup/main.py:46:80: E501 line too long (180 > 79 characters)
+./clubworldcup/main.py:47:80: E501 line too long (180 > 79 characters)
+./clubworldcup/main.py:48:80: E501 line too long (181 > 79 characters)
+./clubworldcup/main.py:49:80: E501 line too long (187 > 79 characters)
+./clubworldcup/main.py:52:80: E501 line too long (179 > 79 characters)
+./clubworldcup/main.py:53:80: E501 line too long (186 > 79 characters)
+./clubworldcup/main.py:54:80: E501 line too long (180 > 79 characters)
+./clubworldcup/main.py:55:80: E501 line too long (186 > 79 characters)
+./clubworldcup/main.py:58:80: E501 line too long (184 > 79 characters)
+./clubworldcup/main.py:59:80: E501 line too long (177 > 79 characters)
+./clubworldcup/main.py:60:80: E501 line too long (177 > 79 characters)
+./clubworldcup/main.py:61:80: E501 line too long (178 > 79 characters)
+./clubworldcup/main.py:64:80: E501 line too long (180 > 79 characters)
+./clubworldcup/main.py:65:80: E501 line too long (181 > 79 characters)
+./clubworldcup/main.py:66:80: E501 line too long (176 > 79 characters)
+./clubworldcup/main.py:67:80: E501 line too long (186 > 79 characters)
+./clubworldcup/main.py:71:1: E302 expected 2 blank lines, found 1
+./clubworldcup/main.py:75:80: E501 line too long (80 > 79 characters)
+./clubworldcup/main.py:79:80: E501 line too long (81 > 79 characters)
+./clubworldcup/main.py:96:1: E305 expected 2 blank lines after class or function definition, found 1
+./clubworldcup/main.py:96:80: E501 line too long (84 > 79 characters)
+./clubworldcup/main.py:99:1: E302 expected 2 blank lines, found 1
+./clubworldcup/main.py:105:80: E501 line too long (107 > 79 characters)
+./clubworldcup/main.py:112:1: E305 expected 2 blank lines after class or function definition, found 1
+./clubworldcup/main.py:114:77: E202 whitespace before ']'
+./clubworldcup/main.py:116:80: E501 line too long (91 > 79 characters)
+./clubworldcup/main.py:125:80: E501 line too long (101 > 79 characters)
+./clubworldcup/main.py:150:80: E501 line too long (82 > 79 characters)
+./clubworldcup/main.py:151:1: E302 expected 2 blank lines, found 1
+./clubworldcup/main.py:153:80: E501 line too long (81 > 79 characters)
+./clubworldcup/main.py:158:5: F841 local variable 'team_name_norm' is assigned to but never used
+./clubworldcup/main.py:161:80: E501 line too long (85 > 79 characters)
+./clubworldcup/main.py:162:5: E306 expected 1 blank line before a nested definition, found 0
+./clubworldcup/main.py:164:80: E501 line too long (84 > 79 characters)
+./clubworldcup/main.py:168:80: E501 line too long (91 > 79 characters)
+./clubworldcup/main.py:169:80: E501 line too long (83 > 79 characters)
+./clubworldcup/main.py:197:1: E302 expected 2 blank lines, found 1
+./clubworldcup/main.py:201:80: E501 line too long (89 > 79 characters)
+./clubworldcup/main.py:202:1: E305 expected 2 blank lines after class or function definition, found 1
+./clubworldcup/main.py:203:80: E501 line too long (89 > 79 characters)
+./clubworldcup/main.py:217:80: E501 line too long (85 > 79 characters)
+./clubworldcup/main.py:224:80: E501 line too long (181 > 79 characters)
+./clubworldcup/main.py:229:1: E302 expected 2 blank lines, found 1
+./clubworldcup/main.py:239:70: E261 at least two spaces before inline comment
+./clubworldcup/main.py:239:80: E501 line too long (92 > 79 characters)
+./clubworldcup/main.py:243:1: W293 blank line contains whitespace
+./clubworldcup/main.py:250:31: E261 at least two spaces before inline comment
+./clubworldcup/main.py:253:30: E261 at least two spaces before inline comment
+./clubworldcup/main.py:256:31: E261 at least two spaces before inline comment
+./clubworldcup/main.py:259:10: E261 at least two spaces before inline comment
+./clubworldcup/main.py:266:1: E302 expected 2 blank lines, found 1
+./clubworldcup/main.py:272:32: E261 at least two spaces before inline comment
+./clubworldcup/main.py:275:80: E501 line too long (80 > 79 characters)
+./clubworldcup/main.py:280:35: E261 at least two spaces before inline comment
+./clubworldcup/main.py:304:1: E302 expected 2 blank lines, found 1
+./clubworldcup/main.py:307:80: E501 line too long (95 > 79 characters)
+./clubworldcup/main.py:314:80: E501 line too long (105 > 79 characters)
+./clubworldcup/main.py:316:80: E501 line too long (101 > 79 characters)
+./clubworldcup/main.py:321:1: E302 expected 2 blank lines, found 1
+./clubworldcup/main.py:321:80: E501 line too long (99 > 79 characters)
+./clubworldcup/main.py:331:1: W293 blank line contains whitespace
+./clubworldcup/main.py:336:1: E305 expected 2 blank lines after class or function definition, found 1
+./clubworldcup/main.py:338:40: E261 at least two spaces before inline comment
+./clubworldcup/main.py:338:80: E501 line too long (97 > 79 characters)
+./clubworldcup/main.py:344:1: W293 blank line contains whitespace
+./clubworldcup/main.py:345:80: E501 line too long (85 > 79 characters)
+./clubworldcup/main.py:364:80: E501 line too long (100 > 79 characters)
+./clubworldcup/main.py:368:80: E501 line too long (97 > 79 characters)
+./clubworldcup/main.py:390:80: E501 line too long (80 > 79 characters)
+./clubworldcup/main.py:394:1: W293 blank line contains whitespace
+./clubworldcup/main.py:398:80: E501 line too long (82 > 79 characters)
+./clubworldcup/main.py:402:80: E501 line too long (119 > 79 characters)
+./clubworldcup/main.py:410:5: E303 too many blank lines (2)
+./clubworldcup/main.py:410:80: E501 line too long (106 > 79 characters)
+./clubworldcup/main.py:413:80: E501 line too long (100 > 79 characters)
+./clubworldcup/main.py:421:5: E303 too many blank lines (2)
+./clubworldcup/main.py:424:63: E261 at least two spaces before inline comment
+./clubworldcup/main.py:424:80: E501 line too long (82 > 79 characters)
+./clubworldcup/main.py:428:1: W293 blank line contains whitespace
+./clubworldcup/main.py:429:80: E501 line too long (100 > 79 characters)
+./clubworldcup/main.py:430:80: E501 line too long (103 > 79 characters)
+./clubworldcup/main.py:431:1: W293 blank line contains whitespace
+./clubworldcup/main.py:433:80: E501 line too long (84 > 79 characters)
+./clubworldcup/main.py:434:80: E501 line too long (83 > 79 characters)
+./clubworldcup/main.py:442:33: E261 at least two spaces before inline comment
+./clubworldcup/main.py:442:80: E501 line too long (84 > 79 characters)
+./clubworldcup/main.py:447:80: E501 line too long (135 > 79 characters)
+./clubworldcup/main.py:450:80: E501 line too long (97 > 79 characters)
+./clubworldcup/main.py:451:80: E501 line too long (91 > 79 characters)
+./clubworldcup/main.py:452:80: E501 line too long (96 > 79 characters)
+./clubworldcup/main.py:453:1: W293 blank line contains whitespace
+./clubworldcup/main.py:455:60: E261 at least two spaces before inline comment
+./clubworldcup/main.py:457:80: E501 line too long (325 > 79 characters)
+./clubworldcup/main.py:461:1: W391 blank line at end of file
+./euro/euro-player.py:2:1: F401 'numpy as np' imported but unused
+./euro/euro-player.py:6:28: W605 invalid escape sequence '\e'
+./euro/euro-player.py:7:26: W605 invalid escape sequence '\e'
+./euro/euro-player.py:14:80: E501 line too long (94 > 79 characters)
+./euro/euro-player.py:15:80: E501 line too long (100 > 79 characters)
+./euro/euro-player.py:16:80: E501 line too long (89 > 79 characters)
+./euro/euro-player.py:30:80: E501 line too long (90 > 79 characters)
+./euro/euro-player.py:50:80: E501 line too long (80 > 79 characters)
+./euro/euro-player.py:55:80: E501 line too long (92 > 79 characters)
+./euro/euro-player.py:63:80: E501 line too long (94 > 79 characters)
+./euro/euro-player.py:70:80: E501 line too long (115 > 79 characters)
+./euro/euro-player.py:74:1: E302 expected 2 blank lines, found 1
+./euro/euro-player.py:78:1: E305 expected 2 blank lines after class or function definition, found 1
+./euro/euro-player.py:90:80: E501 line too long (83 > 79 characters)
+./euro/euro-player.py:91:80: E501 line too long (117 > 79 characters)
+./euro/euro-team.py:9:28: W605 invalid escape sequence '\e'
+./euro/euro-team.py:12:80: E501 line too long (89 > 79 characters)
+./euro/euro-team.py:13:80: E501 line too long (95 > 79 characters)
+./euro/euro-team.py:59:80: E501 line too long (117 > 79 characters)
+./euro/euro-team.py:62:80: E501 line too long (95 > 79 characters)
+./fortnitetime.py:8:1: E302 expected 2 blank lines, found 1
+./fortnitetime.py:11:1: E302 expected 2 blank lines, found 1
+./fortnitetime.py:15:1: E302 expected 2 blank lines, found 1
+./fortnitetime.py:19:1: E305 expected 2 blank lines after class or function definition, found 1
+./fortnitetime.py:34:80: E501 line too long (88 > 79 characters)
+./fortnitetime.py:50:80: E501 line too long (86 > 79 characters)
+./fortnitetime.py:54:80: E501 line too long (99 > 79 characters)
+./fortnitetime.py:55:68: W292 no newline at end of file
+./kaggle/main.py:2:1: F401 'sklearn.model_selection.train_test_split' imported but unused
+./kaggle/main.py:4:1: F401 'sklearn.metrics.classification_report' imported but unused
+./kaggle/main.py:4:1: F401 'sklearn.metrics.accuracy_score' imported but unused
+./kaggle/main.py:8:27: E261 at least two spaces before inline comment
+./kaggle/main.py:11:1: E302 expected 2 blank lines, found 1
+./kaggle/main.py:12:80: E501 line too long (87 > 79 characters)
+./kaggle/main.py:18:80: E501 line too long (91 > 79 characters)
+./kaggle/main.py:23:15: F541 f-string is missing placeholders
+./kaggle/main.py:23:80: E501 line too long (142 > 79 characters)
+./kaggle/main.py:45:80: E501 line too long (104 > 79 characters)
+./kaggle/main.py:51:80: E501 line too long (81 > 79 characters)
+./kaggle/main.py:60:80: E501 line too long (90 > 79 characters)
+./kaggle/main.py:73:80: E501 line too long (119 > 79 characters)
+./kaggle/main.py:93:80: E501 line too long (116 > 79 characters)
+./kaggle/main.py:96:80: E501 line too long (104 > 79 characters)
+./kaggle/main.py:101:80: E501 line too long (92 > 79 characters)
+./kaggle/main.py:104:80: E501 line too long (105 > 79 characters)
+./kaggle/main.py:108:1: E305 expected 2 blank lines after class or function definition, found 1
+./monitor-all-files.py:7:1: E302 expected 2 blank lines, found 1
+./monitor-all-files.py:22:80: E501 line too long (83 > 79 characters)
+./monitor-all-files.py:24:1: E302 expected 2 blank lines, found 1
+./monitor-all-files.py:28:1: W293 blank line contains whitespace
+./monitor-all-files.py:41:1: E305 expected 2 blank lines after class or function definition, found 1
+./monitor-all-files.py:47:38: E261 at least two spaces before inline comment
+./monitor-all-files.py:47:80: E501 line too long (103 > 79 characters)
+./monitor-all-files.py:48:80: E501 line too long (94 > 79 characters)
+./monitor-all-files.py:49:80: E501 line too long (116 > 79 characters)
+./monitor-all-files.py:52:80: E501 line too long (89 > 79 characters)
+./playoffs/championship.py:1:1: F401 'random' imported but unused
+./playoffs/championship.py:4:1: F401 'collections.defaultdict' imported but unused
+./playoffs/championship.py:6:80: E501 line too long (87 > 79 characters)
+./playoffs/championship.py:23:1: E302 expected 2 blank lines, found 1
+./playoffs/championship.py:26:80: E501 line too long (111 > 79 characters)
+./playoffs/championship.py:33:1: E305 expected 2 blank lines after class or function definition, found 1
+./playoffs/championship.py:33:80: E501 line too long (101 > 79 characters)
+./playoffs/championship.py:37:80: E501 line too long (106 > 79 characters)
+./playoffs/championship.py:38:80: E501 line too long (106 > 79 characters)
+./playoffs/championship.py:39:1: W293 blank line contains whitespace
+./playoffs/championship.py:40:80: E501 line too long (88 > 79 characters)
+./playoffs/championship.py:41:80: E501 line too long (88 > 79 characters)
+./playoffs/championship.py:44:80: E501 line too long (91 > 79 characters)
+./playoffs/championship.py:45:80: E501 line too long (96 > 79 characters)
+./playoffs/championship.py:46:80: E501 line too long (90 > 79 characters)
+./playoffs/championship.py:54:80: E501 line too long (82 > 79 characters)
+./playoffs/championship.py:55:80: E501 line too long (97 > 79 characters)
+./playoffs/championship.py:69:80: E501 line too long (94 > 79 characters)
+./playoffs/championship.py:74:80: E501 line too long (191 > 79 characters)
+./playoffs/championship.py:75:80: E501 line too long (90 > 79 characters)
+./playoffs/championship.py:75:91: W292 no newline at end of file
+./playoffs/league-1.py:1:1: F401 'random' imported but unused
+./playoffs/league-1.py:5:80: E501 line too long (91 > 79 characters)
+./playoffs/league-1.py:22:1: E302 expected 2 blank lines, found 1
+./playoffs/league-1.py:25:80: E501 line too long (111 > 79 characters)
+./playoffs/league-1.py:32:1: E305 expected 2 blank lines after class or function definition, found 1
+./playoffs/league-1.py:32:80: E501 line too long (103 > 79 characters)
+./playoffs/league-1.py:36:80: E501 line too long (100 > 79 characters)
+./playoffs/league-1.py:37:80: E501 line too long (100 > 79 characters)
+./playoffs/league-1.py:38:1: W293 blank line contains whitespace
+./playoffs/league-1.py:39:80: E501 line too long (90 > 79 characters)
+./playoffs/league-1.py:40:80: E501 line too long (90 > 79 characters)
+./playoffs/league-1.py:43:80: E501 line too long (91 > 79 characters)
+./playoffs/league-1.py:53:80: E501 line too long (82 > 79 characters)
+./playoffs/league-1.py:54:80: E501 line too long (97 > 79 characters)
+./playoffs/league-1.py:67:80: E501 line too long (88 > 79 characters)
+./playoffs/league-1.py:72:80: E501 line too long (191 > 79 characters)
+./playoffs/league-1.py:73:80: E501 line too long (90 > 79 characters)
+./playoffs/league-1.py:73:91: W292 no newline at end of file
+./playoffs/league-2.py:1:1: F401 'random' imported but unused
+./playoffs/league-2.py:5:80: E501 line too long (81 > 79 characters)
+./playoffs/league-2.py:22:1: E302 expected 2 blank lines, found 1
+./playoffs/league-2.py:25:80: E501 line too long (111 > 79 characters)
+./playoffs/league-2.py:31:1: E305 expected 2 blank lines after class or function definition, found 1
+./playoffs/league-2.py:31:80: E501 line too long (93 > 79 characters)
+./playoffs/league-2.py:37:1: W293 blank line contains whitespace
+./playoffs/league-2.py:38:80: E501 line too long (93 > 79 characters)
+./playoffs/league-2.py:39:80: E501 line too long (93 > 79 characters)
+./playoffs/league-2.py:42:80: E501 line too long (91 > 79 characters)
+./playoffs/league-2.py:52:80: E501 line too long (82 > 79 characters)
+./playoffs/league-2.py:53:80: E501 line too long (97 > 79 characters)
+./playoffs/league-2.py:67:80: E501 line too long (81 > 79 characters)
+./playoffs/league-2.py:69:1: W391 blank line at end of file
+./playoffs/run-all.py:1:1: F401 'random' imported but unused
+./playoffs/run-all.py:10:1: W293 blank line contains whitespace
+./playoffs/run-all.py:14:1: W293 blank line contains whitespace
+./playoffs/run-all.py:24:1: E302 expected 2 blank lines, found 1
+./playoffs/run-all.py:27:80: E501 line too long (111 > 79 characters)
+./playoffs/run-all.py:33:1: E302 expected 2 blank lines, found 1
+./playoffs/run-all.py:43:1: W293 blank line contains whitespace
+./playoffs/run-all.py:47:80: E501 line too long (84 > 79 characters)
+./playoffs/run-all.py:57:1: W293 blank line contains whitespace
+./playoffs/run-all.py:61:1: W293 blank line contains whitespace
+./playoffs/run-all.py:75:1: E305 expected 2 blank lines after class or function definition, found 1
+./playoffs/run-all.py:97:1: E302 expected 2 blank lines, found 1
+./playoffs/run-all.py:98:80: E501 line too long (101 > 79 characters)
+./playoffs/run-all.py:100:80: E501 line too long (105 > 79 characters)
+./playoffs/run-all.py:101:80: E501 line too long (105 > 79 characters)
+./playoffs/run-all.py:102:80: E501 line too long (88 > 79 characters)
+./playoffs/run-all.py:105:1: E305 expected 2 blank lines after class or function definition, found 1
+./playoffs/run-all.py:113:7: F541 f-string is missing placeholders
+./playoffs/run-all.py:115:80: E501 line too long (166 > 79 characters)
+./playoffs/run-all.py:118:80: E501 line too long (185 > 79 characters)
+./playoffs/run-all.py:119:80: E501 line too long (115 > 79 characters)
+./playoffs/run-all.py:120:80: E501 line too long (119 > 79 characters)
+./playoffs/run-all.py:121:80: E501 line too long (135 > 79 characters)
+./playoffs/run-all.py:122:80: E501 line too long (119 > 79 characters)
+./playoffs/run-all.py:126:80: E501 line too long (175 > 79 characters)
+./playoffs/run-all.py:127:80: E501 line too long (109 > 79 characters)
+./playoffs/run-all.py:128:80: E501 line too long (113 > 79 characters)
+./playoffs/run-all.py:129:80: E501 line too long (138 > 79 characters)
+./playoffs/run-all.py:130:80: E501 line too long (127 > 79 characters)
+./playoffs/run-all.py:134:80: E501 line too long (175 > 79 characters)
+./playoffs/run-all.py:135:80: E501 line too long (109 > 79 characters)
+./playoffs/run-all.py:136:80: E501 line too long (113 > 79 characters)
+./playoffs/run-all.py:137:80: E501 line too long (114 > 79 characters)
+./playoffs/run-all.py:138:80: E501 line too long (115 > 79 characters)
+./playoffs/run-all.py:139:16: W292 no newline at end of file
+./premier-league/25-26-season.py:1:1: F401 'sys' imported but unused
+./premier-league/25-26-season.py:8:80: E501 line too long (162 > 79 characters)
+./premier-league/25-26-season.py:9:38: E127 continuation line over-indented for visual indent
+./premier-league/25-26-season.py:9:80: E501 line too long (159 > 79 characters)
+./premier-league/25-26-season.py:10:80: E501 line too long (160 > 79 characters)
+./premier-league/25-26-season.py:11:80: E501 line too long (160 > 79 characters)
+./premier-league/25-26-season.py:12:38: E127 continuation line over-indented for visual indent
+./premier-league/25-26-season.py:12:80: E501 line too long (158 > 79 characters)
+./premier-league/25-26-season.py:13:80: E501 line too long (171 > 79 characters)
+./premier-league/25-26-season.py:14:80: E501 line too long (165 > 79 characters)
+./premier-league/25-26-season.py:15:32: E127 continuation line over-indented for visual indent
+./premier-league/25-26-season.py:15:80: E501 line too long (162 > 79 characters)
+./premier-league/25-26-season.py:16:80: E501 line too long (159 > 79 characters)
+./premier-league/25-26-season.py:17:80: E501 line too long (89 > 79 characters)
+./premier-league/25-26-season.py:18:80: E501 line too long (167 > 79 characters)
+./premier-league/25-26-season.py:19:36: E127 continuation line over-indented for visual indent
+./premier-league/25-26-season.py:19:80: E501 line too long (168 > 79 characters)
+./premier-league/25-26-season.py:20:80: E501 line too long (159 > 79 characters)
+./premier-league/25-26-season.py:21:80: E501 line too long (81 > 79 characters)
+./premier-league/25-26-season.py:23:80: E501 line too long (86 > 79 characters)
+./premier-league/25-26-season.py:24:80: E501 line too long (80 > 79 characters)
+./premier-league/25-26-season.py:28:1: E302 expected 2 blank lines, found 1
+./premier-league/25-26-season.py:34:1: E302 expected 2 blank lines, found 1
+./premier-league/25-26-season.py:35:80: E501 line too long (95 > 79 characters)
+./premier-league/25-26-season.py:41:1: E302 expected 2 blank lines, found 1
+./premier-league/25-26-season.py:42:80: E501 line too long (83 > 79 characters)
+./premier-league/25-26-season.py:45:1: E302 expected 2 blank lines, found 1
+./premier-league/25-26-season.py:61:1: E302 expected 2 blank lines, found 1
+./premier-league/25-26-season.py:78:80: E501 line too long (80 > 79 characters)
+./premier-league/25-26-season.py:87:1: E302 expected 2 blank lines, found 1
+./premier-league/25-26-season.py:88:80: E501 line too long (85 > 79 characters)
+./premier-league/25-26-season.py:94:1: E302 expected 2 blank lines, found 1
+./premier-league/25-26-season.py:95:80: E501 line too long (99 > 79 characters)
+./premier-league/25-26-season.py:96:80: E501 line too long (98 > 79 characters)
+./premier-league/25-26-season.py:100:80: E501 line too long (122 > 79 characters)
+./premier-league/25-26-season.py:101:80: E501 line too long (120 > 79 characters)
+./premier-league/25-26-season.py:104:1: E302 expected 2 blank lines, found 1
+./premier-league/25-26-season.py:106:80: E501 line too long (81 > 79 characters)
+./premier-league/25-26-season.py:108:80: E501 line too long (122 > 79 characters)
+./premier-league/25-26-season.py:132:1: E302 expected 2 blank lines, found 1
+./premier-league/25-26-season.py:134:80: E501 line too long (85 > 79 characters)
+./premier-league/25-26-season.py:142:1: E302 expected 2 blank lines, found 1
+./premier-league/25-26-season.py:144:80: E501 line too long (105 > 79 characters)
+./premier-league/25-26-season.py:146:80: E501 line too long (122 > 79 characters)
+./premier-league/25-26-season.py:147:80: E501 line too long (106 > 79 characters)
+./premier-league/25-26-season.py:174:80: E501 line too long (134 > 79 characters)
+./premier-league/25-26-season.py:180:1: E302 expected 2 blank lines, found 1
+./premier-league/25-26-season.py:182:80: E501 line too long (118 > 79 characters)
+./premier-league/25-26-season.py:187:80: E501 line too long (101 > 79 characters)
+./premier-league/25-26-season.py:190:1: E302 expected 2 blank lines, found 1
+./premier-league/25-26-season.py:195:80: E501 line too long (122 > 79 characters)
+./premier-league/25-26-season.py:204:80: E501 line too long (116 > 79 characters)
+./premier-league/25-26-season.py:207:1: E302 expected 2 blank lines, found 1
+./premier-league/25-26-season.py:208:80: E501 line too long (85 > 79 characters)
+./premier-league/25-26-season.py:209:80: E501 line too long (130 > 79 characters)
+./premier-league/25-26-season.py:213:80: E501 line too long (90 > 79 characters)
+./premier-league/25-26-season.py:217:80: E501 line too long (116 > 79 characters)
+./premier-league/25-26-season.py:220:1: E302 expected 2 blank lines, found 1
+./premier-league/25-26-season.py:222:80: E501 line too long (156 > 79 characters)
+./premier-league/25-26-season.py:226:80: E501 line too long (108 > 79 characters)
+./premier-league/25-26-season.py:232:80: E501 line too long (148 > 79 characters)
+./premier-league/25-26-season.py:235:1: E302 expected 2 blank lines, found 1
+./premier-league/25-26-season.py:241:80: E501 line too long (88 > 79 characters)
+./premier-league/25-26-season.py:255:80: E501 line too long (83 > 79 characters)
+./premier-league/25-26-season.py:257:1: E302 expected 2 blank lines, found 1
+./premier-league/25-26-season.py:258:80: E501 line too long (105 > 79 characters)
+./premier-league/25-26-season.py:260:80: E501 line too long (91 > 79 characters)
+./premier-league/25-26-season.py:263:80: E501 line too long (105 > 79 characters)
+./premier-league/25-26-season.py:264:80: E501 line too long (109 > 79 characters)
+./premier-league/25-26-season.py:291:80: E501 line too long (134 > 79 characters)
+./premier-league/25-26-season.py:297:1: E302 expected 2 blank lines, found 1
+./premier-league/25-26-season.py:321:5: F841 local variable 'league_table' is assigned to but never used
+./premier-league/25-26-season.py:321:80: E501 line too long (96 > 79 characters)
+./premier-league/25-26-season.py:322:1: W293 blank line contains whitespace
+./premier-league/25-26-season.py:324:5: E303 too many blank lines (2)
+./premier-league/25-26-season.py:325:80: E501 line too long (90 > 79 characters)
+./premier-league/25-26-season.py:326:1: W293 blank line contains whitespace
+./premier-league/25-26-season.py:328:5: E303 too many blank lines (2)
+./premier-league/25-26-season.py:329:80: E501 line too long (90 > 79 characters)
+./premier-league/25-26-season.py:330:1: W293 blank line contains whitespace
+./premier-league/25-26-season.py:332:5: E303 too many blank lines (2)
+./premier-league/25-26-season.py:333:80: E501 line too long (89 > 79 characters)
+./premier-league/25-26-season.py:334:1: W293 blank line contains whitespace
+./premier-league/25-26-season.py:336:5: E303 too many blank lines (2)
+./premier-league/25-26-season.py:339:1: E305 expected 2 blank lines after class or function definition, found 1
+./snakeAI/main.py:21:1: E302 expected 2 blank lines, found 1
+./snakeAI/main.py:77:80: E501 line too long (80 > 79 characters)
+./snakeAI/main.py:93:80: E501 line too long (89 > 79 characters)
+./snakeAI/main.py:94:80: E501 line too long (87 > 79 characters)
+./snakeAI/main.py:128:80: E501 line too long (112 > 79 characters)
+./snakeAI/main.py:153:80: E501 line too long (89 > 79 characters)
+./worldcup26/main.py:6:1: F401 'typing.Dict' imported but unused
+./worldcup26/main.py:6:1: F401 'typing.Optional' imported but unused
+./worldcup26/main.py:10:80: E501 line too long (100 > 79 characters)
+./worldcup26/main.py:11:80: E501 line too long (106 > 79 characters)
+./worldcup26/main.py:12:80: E501 line too long (102 > 79 characters)
+./worldcup26/main.py:13:80: E501 line too long (102 > 79 characters)
+./worldcup26/main.py:14:80: E501 line too long (110 > 79 characters)
+./worldcup26/main.py:15:80: E501 line too long (101 > 79 characters)
+./worldcup26/main.py:16:80: E501 line too long (97 > 79 characters)
+./worldcup26/main.py:17:80: E501 line too long (101 > 79 characters)
+./worldcup26/main.py:18:80: E501 line too long (106 > 79 characters)
+./worldcup26/main.py:19:80: E501 line too long (107 > 79 characters)
+./worldcup26/main.py:20:80: E501 line too long (100 > 79 characters)
+./worldcup26/main.py:21:80: E501 line too long (124 > 79 characters)
+./worldcup26/main.py:22:80: E501 line too long (124 > 79 characters)
+./worldcup26/main.py:23:80: E501 line too long (122 > 79 characters)
+./worldcup26/main.py:24:80: E501 line too long (108 > 79 characters)
+./worldcup26/main.py:25:80: E501 line too long (115 > 79 characters)
+./worldcup26/main.py:26:80: E501 line too long (120 > 79 characters)
+./worldcup26/main.py:27:80: E501 line too long (98 > 79 characters)
+./worldcup26/main.py:28:80: E501 line too long (135 > 79 characters)
+./worldcup26/main.py:29:80: E501 line too long (147 > 79 characters)
+./worldcup26/main.py:30:80: E501 line too long (90 > 79 characters)
+./worldcup26/main.py:31:80: E501 line too long (103 > 79 characters)
+./worldcup26/main.py:32:80: E501 line too long (81 > 79 characters)
+./worldcup26/main.py:33:80: E501 line too long (104 > 79 characters)
+./worldcup26/main.py:34:80: E501 line too long (104 > 79 characters)
+./worldcup26/main.py:35:80: E501 line too long (102 > 79 characters)
+./worldcup26/main.py:36:80: E501 line too long (124 > 79 characters)
+./worldcup26/main.py:37:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:39:80: E501 line too long (104 > 79 characters)
+./worldcup26/main.py:40:80: E501 line too long (165 > 79 characters)
+./worldcup26/main.py:41:80: E501 line too long (144 > 79 characters)
+./worldcup26/main.py:42:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:43:80: E501 line too long (98 > 79 characters)
+./worldcup26/main.py:44:80: E501 line too long (117 > 79 characters)
+./worldcup26/main.py:45:80: E501 line too long (107 > 79 characters)
+./worldcup26/main.py:49:1: E302 expected 2 blank lines, found 1
+./worldcup26/main.py:54:80: E501 line too long (98 > 79 characters)
+./worldcup26/main.py:59:1: E305 expected 2 blank lines after class or function definition, found 1
+./worldcup26/main.py:61:1: E302 expected 2 blank lines, found 1
+./worldcup26/main.py:68:1: E302 expected 2 blank lines, found 1
+./worldcup26/main.py:69:80: E501 line too long (97 > 79 characters)
+./worldcup26/main.py:73:80: E501 line too long (82 > 79 characters)
+./worldcup26/main.py:74:80: E501 line too long (83 > 79 characters)
+./worldcup26/main.py:79:1: E302 expected 2 blank lines, found 1
+./worldcup26/main.py:80:80: E501 line too long (84 > 79 characters)
+./worldcup26/main.py:95:1: E302 expected 2 blank lines, found 1
+./worldcup26/main.py:96:80: E501 line too long (106 > 79 characters)
+./worldcup26/main.py:97:80: E501 line too long (127 > 79 characters)
+./worldcup26/main.py:99:1: E302 expected 2 blank lines, found 1
+./worldcup26/main.py:99:80: E501 line too long (180 > 79 characters)
+./worldcup26/main.py:101:15: E701 multiple statements on one line (colon)
+./worldcup26/main.py:101:80: E501 line too long (91 > 79 characters)
+./worldcup26/main.py:112:80: E501 line too long (82 > 79 characters)
+./worldcup26/main.py:118:80: E501 line too long (117 > 79 characters)
+./worldcup26/main.py:120:80: E501 line too long (118 > 79 characters)
+./worldcup26/main.py:121:80: E501 line too long (85 > 79 characters)
+./worldcup26/main.py:122:80: E501 line too long (98 > 79 characters)
+./worldcup26/main.py:124:80: E501 line too long (88 > 79 characters)
+./worldcup26/main.py:125:80: E501 line too long (82 > 79 characters)
+./worldcup26/main.py:128:80: E501 line too long (122 > 79 characters)
+./worldcup26/main.py:130:27: E701 multiple statements on one line (colon)
+./worldcup26/main.py:130:80: E501 line too long (107 > 79 characters)
+./worldcup26/main.py:138:80: E501 line too long (99 > 79 characters)
+./worldcup26/main.py:146:80: E501 line too long (82 > 79 characters)
+./worldcup26/main.py:147:80: E501 line too long (84 > 79 characters)
+./worldcup26/main.py:148:80: E501 line too long (99 > 79 characters)
+./worldcup26/main.py:151:80: E501 line too long (107 > 79 characters)
+./worldcup26/main.py:152:80: E501 line too long (91 > 79 characters)
+./worldcup26/main.py:156:80: E501 line too long (80 > 79 characters)
+./worldcup26/main.py:159:1: E302 expected 2 blank lines, found 1
+./worldcup26/main.py:159:80: E501 line too long (85 > 79 characters)
+./worldcup26/main.py:164:15: E701 multiple statements on one line (colon)
+./worldcup26/main.py:167:23: E701 multiple statements on one line (colon)
+./worldcup26/main.py:167:80: E501 line too long (114 > 79 characters)
+./worldcup26/main.py:169:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:171:80: E501 line too long (83 > 79 characters)
+./worldcup26/main.py:177:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:181:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:183:23: E701 multiple statements on one line (colon)
+./worldcup26/main.py:183:80: E501 line too long (110 > 79 characters)
+./worldcup26/main.py:186:27: E701 multiple statements on one line (colon)
+./worldcup26/main.py:189:27: E701 multiple statements on one line (colon)
+./worldcup26/main.py:197:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:199:80: E501 line too long (114 > 79 characters)
+./worldcup26/main.py:204:1: E305 expected 2 blank lines after class or function definition, found 1
+./worldcup26/main.py:218:80: E501 line too long (98 > 79 characters)
+./worldcup26/main.py:219:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:220:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:221:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:222:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:223:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:224:80: E501 line too long (98 > 79 characters)
+./worldcup26/main.py:225:80: E501 line too long (97 > 79 characters)
+./worldcup26/main.py:226:80: E501 line too long (93 > 79 characters)
+./worldcup26/main.py:227:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:231:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:232:80: E501 line too long (102 > 79 characters)
+./worldcup26/main.py:233:80: E501 line too long (100 > 79 characters)
+./worldcup26/main.py:234:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:235:80: E501 line too long (102 > 79 characters)
+./worldcup26/main.py:236:80: E501 line too long (98 > 79 characters)
+./worldcup26/main.py:239:80: E501 line too long (97 > 79 characters)
+./worldcup26/main.py:240:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:241:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:242:80: E501 line too long (93 > 79 characters)
+./worldcup26/main.py:243:80: E501 line too long (101 > 79 characters)
+./worldcup26/main.py:244:80: E501 line too long (98 > 79 characters)
+./worldcup26/main.py:247:80: E501 line too long (102 > 79 characters)
+./worldcup26/main.py:248:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:249:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:250:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:251:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:252:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:255:80: E501 line too long (99 > 79 characters)
+./worldcup26/main.py:256:80: E501 line too long (98 > 79 characters)
+./worldcup26/main.py:257:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:258:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:259:80: E501 line too long (99 > 79 characters)
+./worldcup26/main.py:260:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:263:80: E501 line too long (98 > 79 characters)
+./worldcup26/main.py:264:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:265:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:266:80: E501 line too long (93 > 79 characters)
+./worldcup26/main.py:267:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:268:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:271:80: E501 line too long (102 > 79 characters)
+./worldcup26/main.py:272:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:273:80: E501 line too long (97 > 79 characters)
+./worldcup26/main.py:274:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:275:80: E501 line too long (97 > 79 characters)
+./worldcup26/main.py:276:80: E501 line too long (100 > 79 characters)
+./worldcup26/main.py:279:80: E501 line too long (98 > 79 characters)
+./worldcup26/main.py:280:80: E501 line too long (102 > 79 characters)
+./worldcup26/main.py:281:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:282:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:283:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:284:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:287:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:288:80: E501 line too long (106 > 79 characters)
+./worldcup26/main.py:289:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:290:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:291:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:292:80: E501 line too long (111 > 79 characters)
+./worldcup26/main.py:295:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:296:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:297:80: E501 line too long (99 > 79 characters)
+./worldcup26/main.py:298:80: E501 line too long (92 > 79 characters)
+./worldcup26/main.py:299:80: E501 line too long (114 > 79 characters)
+./worldcup26/main.py:300:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:305:80: E501 line too long (97 > 79 characters)
+./worldcup26/main.py:306:80: E501 line too long (100 > 79 characters)
+./worldcup26/main.py:307:80: E501 line too long (110 > 79 characters)
+./worldcup26/main.py:308:80: E501 line too long (97 > 79 characters)
+./worldcup26/main.py:309:80: E501 line too long (106 > 79 characters)
+./worldcup26/main.py:310:80: E501 line too long (101 > 79 characters)
+./worldcup26/main.py:313:80: E501 line too long (101 > 79 characters)
+./worldcup26/main.py:314:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:315:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:316:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:317:80: E501 line too long (99 > 79 characters)
+./worldcup26/main.py:318:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:321:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:322:80: E501 line too long (99 > 79 characters)
+./worldcup26/main.py:323:80: E501 line too long (101 > 79 characters)
+./worldcup26/main.py:324:80: E501 line too long (100 > 79 characters)
+./worldcup26/main.py:325:80: E501 line too long (98 > 79 characters)
+./worldcup26/main.py:326:80: E501 line too long (99 > 79 characters)
+./worldcup26/main.py:331:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:332:80: E501 line too long (92 > 79 characters)
+./worldcup26/main.py:333:80: E501 line too long (102 > 79 characters)
+./worldcup26/main.py:334:80: E501 line too long (108 > 79 characters)
+./worldcup26/main.py:335:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:338:80: E501 line too long (98 > 79 characters)
+./worldcup26/main.py:339:80: E501 line too long (107 > 79 characters)
+./worldcup26/main.py:340:80: E501 line too long (110 > 79 characters)
+./worldcup26/main.py:341:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:342:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:345:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:346:80: E501 line too long (93 > 79 characters)
+./worldcup26/main.py:347:80: E501 line too long (100 > 79 characters)
+./worldcup26/main.py:348:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:349:80: E501 line too long (97 > 79 characters)
+./worldcup26/main.py:352:80: E501 line too long (97 > 79 characters)
+./worldcup26/main.py:353:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:354:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:355:80: E501 line too long (99 > 79 characters)
+./worldcup26/main.py:356:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:359:80: E501 line too long (97 > 79 characters)
+./worldcup26/main.py:360:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:361:80: E501 line too long (106 > 79 characters)
+./worldcup26/main.py:362:80: E501 line too long (97 > 79 characters)
+./worldcup26/main.py:363:80: E501 line too long (111 > 79 characters)
+./worldcup26/main.py:366:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:367:80: E501 line too long (99 > 79 characters)
+./worldcup26/main.py:368:80: E501 line too long (99 > 79 characters)
+./worldcup26/main.py:369:80: E501 line too long (121 > 79 characters)
+./worldcup26/main.py:370:80: E501 line too long (99 > 79 characters)
+./worldcup26/main.py:381:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:382:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:383:80: E501 line too long (98 > 79 characters)
+./worldcup26/main.py:384:80: E501 line too long (99 > 79 characters)
+./worldcup26/main.py:385:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:388:80: E501 line too long (110 > 79 characters)
+./worldcup26/main.py:389:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:390:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:391:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:392:80: E501 line too long (99 > 79 characters)
+./worldcup26/main.py:395:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:396:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:397:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:398:80: E501 line too long (93 > 79 characters)
+./worldcup26/main.py:399:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:402:80: E501 line too long (103 > 79 characters)
+./worldcup26/main.py:403:80: E501 line too long (93 > 79 characters)
+./worldcup26/main.py:404:80: E501 line too long (98 > 79 characters)
+./worldcup26/main.py:405:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:406:80: E501 line too long (102 > 79 characters)
+./worldcup26/main.py:411:1: E302 expected 2 blank lines, found 1
+./worldcup26/main.py:413:15: E701 multiple statements on one line (colon)
+./worldcup26/main.py:413:23: F541 f-string is missing placeholders
+./worldcup26/main.py:418:80: E501 line too long (163 > 79 characters)
+./worldcup26/main.py:419:80: E501 line too long (163 > 79 characters)
+./worldcup26/main.py:420:80: E501 line too long (163 > 79 characters)
+./worldcup26/main.py:425:23: E701 multiple statements on one line (colon)
+./worldcup26/main.py:427:80: E501 line too long (114 > 79 characters)
+./worldcup26/main.py:428:80: E501 line too long (87 > 79 characters)
+./worldcup26/main.py:429:80: E501 line too long (99 > 79 characters)
+./worldcup26/main.py:435:15: E701 multiple statements on one line (colon)
+./worldcup26/main.py:443:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:443:80: E501 line too long (127 > 79 characters)
+./worldcup26/main.py:445:80: E501 line too long (90 > 79 characters)
+./worldcup26/main.py:450:30: E701 multiple statements on one line (colon)
+./worldcup26/main.py:451:80: E501 line too long (87 > 79 characters)
+./worldcup26/main.py:452:80: E501 line too long (83 > 79 characters)
+./worldcup26/main.py:459:15: E701 multiple statements on one line (colon)
+./worldcup26/main.py:461:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:461:80: E501 line too long (105 > 79 characters)
+./worldcup26/main.py:462:80: E501 line too long (100 > 79 characters)
+./worldcup26/main.py:465:23: E701 multiple statements on one line (colon)
+./worldcup26/main.py:465:80: E501 line too long (104 > 79 characters)
+./worldcup26/main.py:468:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:468:80: E501 line too long (113 > 79 characters)
+./worldcup26/main.py:470:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:470:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:473:1: E302 expected 2 blank lines, found 1
+./worldcup26/main.py:475:15: E701 multiple statements on one line (colon)
+./worldcup26/main.py:475:23: F541 f-string is missing placeholders
+./worldcup26/main.py:478:80: E501 line too long (106 > 79 characters)
+./worldcup26/main.py:479:80: E501 line too long (93 > 79 characters)
+./worldcup26/main.py:480:80: E501 line too long (93 > 79 characters)
+./worldcup26/main.py:481:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:483:80: E501 line too long (92 > 79 characters)
+./worldcup26/main.py:484:80: E501 line too long (92 > 79 characters)
+./worldcup26/main.py:485:80: E501 line too long (113 > 79 characters)
+./worldcup26/main.py:486:80: E501 line too long (101 > 79 characters)
+./worldcup26/main.py:490:35: E701 multiple statements on one line (colon)
+./worldcup26/main.py:496:80: E501 line too long (86 > 79 characters)
+./worldcup26/main.py:497:80: E501 line too long (104 > 79 characters)
+./worldcup26/main.py:507:80: E501 line too long (88 > 79 characters)
+./worldcup26/main.py:508:80: E501 line too long (84 > 79 characters)
+./worldcup26/main.py:510:15: E701 multiple statements on one line (colon)
+./worldcup26/main.py:512:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:512:80: E501 line too long (110 > 79 characters)
+./worldcup26/main.py:513:80: E501 line too long (101 > 79 characters)
+./worldcup26/main.py:516:23: E701 multiple statements on one line (colon)
+./worldcup26/main.py:516:80: E501 line too long (104 > 79 characters)
+./worldcup26/main.py:519:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:519:80: E501 line too long (113 > 79 characters)
+./worldcup26/main.py:521:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:524:1: E302 expected 2 blank lines, found 1
+./worldcup26/main.py:525:80: E501 line too long (102 > 79 characters)
+./worldcup26/main.py:526:15: E701 multiple statements on one line (colon)
+./worldcup26/main.py:526:23: F541 f-string is missing placeholders
+./worldcup26/main.py:526:80: E501 line too long (82 > 79 characters)
+./worldcup26/main.py:531:80: E501 line too long (132 > 79 characters)
+./worldcup26/main.py:532:80: E501 line too long (132 > 79 characters)
+./worldcup26/main.py:533:80: E501 line too long (132 > 79 characters)
+./worldcup26/main.py:534:80: E501 line too long (132 > 79 characters)
+./worldcup26/main.py:535:80: E501 line too long (132 > 79 characters)
+./worldcup26/main.py:536:80: E501 line too long (132 > 79 characters)
+./worldcup26/main.py:539:80: E501 line too long (86 > 79 characters)
+./worldcup26/main.py:540:35: E701 multiple statements on one line (colon)
+./worldcup26/main.py:541:80: E501 line too long (93 > 79 characters)
+./worldcup26/main.py:542:80: E501 line too long (86 > 79 characters)
+./worldcup26/main.py:543:80: E501 line too long (104 > 79 characters)
+./worldcup26/main.py:550:15: E701 multiple statements on one line (colon)
+./worldcup26/main.py:559:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:559:80: E501 line too long (135 > 79 characters)
+./worldcup26/main.py:562:80: E501 line too long (118 > 79 characters)
+./worldcup26/main.py:563:80: E501 line too long (92 > 79 characters)
+./worldcup26/main.py:564:41: F541 f-string is missing placeholders
+./worldcup26/main.py:564:80: E501 line too long (152 > 79 characters)
+./worldcup26/main.py:567:30: E701 multiple statements on one line (colon)
+./worldcup26/main.py:568:80: E501 line too long (83 > 79 characters)
+./worldcup26/main.py:569:80: E501 line too long (83 > 79 characters)
+./worldcup26/main.py:573:80: E501 line too long (85 > 79 characters)
+./worldcup26/main.py:579:80: E501 line too long (83 > 79 characters)
+./worldcup26/main.py:580:80: E501 line too long (82 > 79 characters)
+./worldcup26/main.py:582:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:582:80: E501 line too long (108 > 79 characters)
+./worldcup26/main.py:584:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:584:80: E501 line too long (118 > 79 characters)
+./worldcup26/main.py:586:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:589:1: E302 expected 2 blank lines, found 1
+./worldcup26/main.py:591:15: E701 multiple statements on one line (colon)
+./worldcup26/main.py:591:23: F541 f-string is missing placeholders
+./worldcup26/main.py:591:80: E501 line too long (82 > 79 characters)
+./worldcup26/main.py:595:80: E501 line too long (87 > 79 characters)
+./worldcup26/main.py:598:80: E501 line too long (109 > 79 characters)
+./worldcup26/main.py:600:80: E501 line too long (83 > 79 characters)
+./worldcup26/main.py:607:80: E501 line too long (117 > 79 characters)
+./worldcup26/main.py:613:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:613:80: E501 line too long (110 > 79 characters)
+./worldcup26/main.py:615:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:615:80: E501 line too long (105 > 79 characters)
+./worldcup26/main.py:618:1: E302 expected 2 blank lines, found 1
+./worldcup26/main.py:620:15: E701 multiple statements on one line (colon)
+./worldcup26/main.py:620:23: F541 f-string is missing placeholders
+./worldcup26/main.py:624:80: E501 line too long (80 > 79 characters)
+./worldcup26/main.py:626:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:626:80: E501 line too long (116 > 79 characters)
+./worldcup26/main.py:629:1: E302 expected 2 blank lines, found 1
+./worldcup26/main.py:631:15: E701 multiple statements on one line (colon)
+./worldcup26/main.py:631:23: F541 f-string is missing placeholders
+./worldcup26/main.py:635:80: E501 line too long (82 > 79 characters)
+./worldcup26/main.py:640:80: E501 line too long (98 > 79 characters)
+./worldcup26/main.py:641:80: E501 line too long (89 > 79 characters)
+./worldcup26/main.py:643:80: E501 line too long (81 > 79 characters)
+./worldcup26/main.py:648:80: E501 line too long (82 > 79 characters)
+./worldcup26/main.py:653:80: E501 line too long (82 > 79 characters)
+./worldcup26/main.py:654:80: E501 line too long (83 > 79 characters)
+./worldcup26/main.py:655:80: E501 line too long (97 > 79 characters)
+./worldcup26/main.py:657:80: E501 line too long (95 > 79 characters)
+./worldcup26/main.py:664:80: E501 line too long (83 > 79 characters)
+./worldcup26/main.py:680:35: E701 multiple statements on one line (colon)
+./worldcup26/main.py:686:80: E501 line too long (82 > 79 characters)
+./worldcup26/main.py:687:80: E501 line too long (104 > 79 characters)
+./worldcup26/main.py:700:15: E701 multiple statements on one line (colon)
+./worldcup26/main.py:709:23: E701 multiple statements on one line (colon)
+./worldcup26/main.py:710:80: E501 line too long (93 > 79 characters)
+./worldcup26/main.py:712:80: E501 line too long (88 > 79 characters)
+./worldcup26/main.py:714:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:714:80: E501 line too long (124 > 79 characters)
+./worldcup26/main.py:716:80: E501 line too long (108 > 79 characters)
+./worldcup26/main.py:721:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:721:80: E501 line too long (102 > 79 characters)
+./worldcup26/main.py:724:1: E302 expected 2 blank lines, found 1
+./worldcup26/main.py:724:80: E501 line too long (176 > 79 characters)
+./worldcup26/main.py:726:15: E701 multiple statements on one line (colon)
+./worldcup26/main.py:726:23: F541 f-string is missing placeholders
+./worldcup26/main.py:726:80: E501 line too long (81 > 79 characters)
+./worldcup26/main.py:741:15: E701 multiple statements on one line (colon)
+./worldcup26/main.py:746:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:749:27: E701 multiple statements on one line (colon)
+./worldcup26/main.py:750:80: E501 line too long (113 > 79 characters)
+./worldcup26/main.py:752:80: E501 line too long (84 > 79 characters)
+./worldcup26/main.py:754:27: E701 multiple statements on one line (colon)
+./worldcup26/main.py:756:19: E701 multiple statements on one line (colon)
+./worldcup26/main.py:756:80: E501 line too long (126 > 79 characters)
+./worldcup26/main.py:758:80: E501 line too long (109 > 79 characters)
+./worldcup26/main.py:760:80: E501 line too long (81 > 79 characters)
+./worldcup26/main.py:762:23: E701 multiple statements on one line (colon)
+./worldcup26/main.py:762:80: E501 line too long (83 > 79 characters)
+./worldcup26/main.py:765:1: E302 expected 2 blank lines, found 1
+./worldcup26/main.py:767:80: E501 line too long (98 > 79 characters)
+./worldcup26/main.py:770:15: E701 multiple statements on one line (colon)
+./worldcup26/main.py:770:80: E501 line too long (105 > 79 characters)
+./worldcup26/main.py:775:80: E501 line too long (90 > 79 characters)
+./worldcup26/main.py:781:80: E501 line too long (91 > 79 characters)
+./worldcup26/main.py:782:80: E501 line too long (90 > 79 characters)
+./worldcup26/main.py:786:80: E501 line too long (115 > 79 characters)
+./worldcup26/main.py:792:80: E501 line too long (100 > 79 characters)
+./worldcup26/main.py:796:80: E501 line too long (112 > 79 characters)
+./worldcup26/main.py:808:80: E501 line too long (94 > 79 characters)
+./worldcup26/main.py:824:80: E501 line too long (93 > 79 characters)
+./worldcup26/main.py:834:80: E501 line too long (93 > 79 characters)
+./worldcup26/main.py:839:1: E302 expected 2 blank lines, found 1
+./worldcup26/main.py:839:80: E501 line too long (83 > 79 characters)
+./worldcup26/main.py:840:80: E501 line too long (88 > 79 characters)
+./worldcup26/main.py:843:80: E501 line too long (108 > 79 characters)
+./worldcup26/main.py:856:80: E501 line too long (90 > 79 characters)
+./worldcup26/main.py:867:1: E302 expected 2 blank lines, found 1
+./worldcup26/main.py:868:80: E501 line too long (90 > 79 characters)
+./worldcup26/main.py:869:80: E501 line too long (97 > 79 characters)
+./worldcup26/main.py:870:80: E501 line too long (121 > 79 characters)
+./worldcup26/main.py:871:80: E501 line too long (87 > 79 characters)
+./worldcup26/main.py:874:1: E305 expected 2 blank lines after class or function definition, found 1
+./worldcup26/main.py:886:80: E501 line too long (89 > 79 characters)
+./worldcup26/main.py:887:80: E501 line too long (88 > 79 characters)
+./worldcup26/main.py:891:80: E501 line too long (113 > 79 characters)
+./worldcup26/main.py:905:80: E501 line too long (87 > 79 characters)
+./worldcup26/main.py:906:80: E501 line too long (83 > 79 characters)
+./worldcup26/main.py:907:80: E501 line too long (108 > 79 characters)
+./worldcup26/main.py:908:80: E501 line too long (89 > 79 characters)
+./worldcup26/main.py:912:80: E501 line too long (96 > 79 characters)
+./worldcup26/main.py:925:80: E501 line too long (110 > 79 characters)
+./worldcup26/main.py:926:80: E501 line too long (109 > 79 characters)
+./worldcup26/main.py:927:80: E501 line too long (110 > 79 characters)
+./worldcup26/main.py:928:80: E501 line too long (112 > 79 characters)
+./worldcup26/main.py:929:80: E501 line too long (112 > 79 characters)
+./worldcup26/main.py:930:80: E501 line too long (114 > 79 characters)
+./worldcup26/main.py:953:1: W391 blank line at end of file
+./worldcup26/qualifying/Africa.py:4:1: F401 'math' imported but unused
+./worldcup26/qualifying/Africa.py:9:80: E501 line too long (98 > 79 characters)
+./worldcup26/qualifying/Africa.py:61:23: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:65:80: E501 line too long (83 > 79 characters)
+./worldcup26/qualifying/Africa.py:67:80: E501 line too long (91 > 79 characters)
+./worldcup26/qualifying/Africa.py:101:17: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:101:80: E501 line too long (94 > 79 characters)
+./worldcup26/qualifying/Africa.py:102:76: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:102:80: E501 line too long (94 > 79 characters)
+./worldcup26/qualifying/Africa.py:103:80: E501 line too long (95 > 79 characters)
+./worldcup26/qualifying/Africa.py:105:71: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:105:80: E501 line too long (97 > 79 characters)
+./worldcup26/qualifying/Africa.py:128:80: E501 line too long (83 > 79 characters)
+./worldcup26/qualifying/Africa.py:130:80: E501 line too long (88 > 79 characters)
+./worldcup26/qualifying/Africa.py:137:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/Africa.py:142:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/Africa.py:143:80: E501 line too long (93 > 79 characters)
+./worldcup26/qualifying/Africa.py:144:80: E501 line too long (82 > 79 characters)
+./worldcup26/qualifying/Africa.py:145:80: E501 line too long (102 > 79 characters)
+./worldcup26/qualifying/Africa.py:148:80: E501 line too long (98 > 79 characters)
+./worldcup26/qualifying/Africa.py:149:80: E501 line too long (98 > 79 characters)
+./worldcup26/qualifying/Africa.py:150:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/Africa.py:151:80: E501 line too long (97 > 79 characters)
+./worldcup26/qualifying/Africa.py:153:80: E501 line too long (97 > 79 characters)
+./worldcup26/qualifying/Africa.py:155:80: E501 line too long (82 > 79 characters)
+./worldcup26/qualifying/Africa.py:157:80: E501 line too long (105 > 79 characters)
+./worldcup26/qualifying/Africa.py:158:80: E501 line too long (103 > 79 characters)
+./worldcup26/qualifying/Africa.py:159:80: E501 line too long (94 > 79 characters)
+./worldcup26/qualifying/Africa.py:160:80: E501 line too long (82 > 79 characters)
+./worldcup26/qualifying/Africa.py:161:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/Africa.py:162:80: E501 line too long (99 > 79 characters)
+./worldcup26/qualifying/Africa.py:166:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/Africa.py:169:80: E501 line too long (97 > 79 characters)
+./worldcup26/qualifying/Africa.py:170:80: E501 line too long (96 > 79 characters)
+./worldcup26/qualifying/Africa.py:171:80: E501 line too long (130 > 79 characters)
+./worldcup26/qualifying/Africa.py:174:80: E501 line too long (129 > 79 characters)
+./worldcup26/qualifying/Africa.py:187:68: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:187:80: E501 line too long (108 > 79 characters)
+./worldcup26/qualifying/Africa.py:189:80: E501 line too long (94 > 79 characters)
+./worldcup26/qualifying/Africa.py:190:80: E501 line too long (83 > 79 characters)
+./worldcup26/qualifying/Africa.py:191:80: E501 line too long (96 > 79 characters)
+./worldcup26/qualifying/Africa.py:192:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/Africa.py:193:80: E501 line too long (80 > 79 characters)
+./worldcup26/qualifying/Africa.py:194:80: E501 line too long (124 > 79 characters)
+./worldcup26/qualifying/Africa.py:196:80: E501 line too long (91 > 79 characters)
+./worldcup26/qualifying/Africa.py:202:67: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:202:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/Africa.py:203:67: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:203:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/Africa.py:206:80: E501 line too long (80 > 79 characters)
+./worldcup26/qualifying/Africa.py:208:80: E501 line too long (101 > 79 characters)
+./worldcup26/qualifying/Africa.py:212:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/Africa.py:213:58: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:213:80: E501 line too long (98 > 79 characters)
+./worldcup26/qualifying/Africa.py:219:80: E501 line too long (112 > 79 characters)
+./worldcup26/qualifying/Africa.py:219:85: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:240:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/Africa.py:250:36: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/Africa.py:250:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/Africa.py:256:36: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/Africa.py:256:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/Africa.py:258:80: E501 line too long (94 > 79 characters)
+./worldcup26/qualifying/Africa.py:264:59: E231 missing whitespace after ','
+./worldcup26/qualifying/Africa.py:268:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/Africa.py:270:80: E501 line too long (125 > 79 characters)
+./worldcup26/qualifying/Africa.py:274:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/Africa.py:275:44: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:275:80: E501 line too long (88 > 79 characters)
+./worldcup26/qualifying/Africa.py:278:80: E501 line too long (101 > 79 characters)
+./worldcup26/qualifying/Africa.py:281:48: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:281:80: E501 line too long (101 > 79 characters)
+./worldcup26/qualifying/Africa.py:284:80: E501 line too long (94 > 79 characters)
+./worldcup26/qualifying/Africa.py:285:80: E501 line too long (88 > 79 characters)
+./worldcup26/qualifying/Africa.py:297:80: E501 line too long (88 > 79 characters)
+./worldcup26/qualifying/Africa.py:299:56: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:299:80: E501 line too long (82 > 79 characters)
+./worldcup26/qualifying/Africa.py:301:80: E501 line too long (95 > 79 characters)
+./worldcup26/qualifying/Africa.py:302:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/Africa.py:304:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/Africa.py:314:80: E501 line too long (93 > 79 characters)
+./worldcup26/qualifying/Africa.py:315:80: E501 line too long (93 > 79 characters)
+./worldcup26/qualifying/Africa.py:318:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/Africa.py:319:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/Africa.py:322:9: E303 too many blank lines (2)
+./worldcup26/qualifying/Africa.py:334:43: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:342:80: E501 line too long (114 > 79 characters)
+./worldcup26/qualifying/Africa.py:345:73: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:345:80: E501 line too long (91 > 79 characters)
+./worldcup26/qualifying/Africa.py:349:80: E501 line too long (103 > 79 characters)
+./worldcup26/qualifying/Africa.py:351:69: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:351:80: E501 line too long (109 > 79 characters)
+./worldcup26/qualifying/Africa.py:357:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/Africa.py:358:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/Africa.py:360:80: E501 line too long (129 > 79 characters)
+./worldcup26/qualifying/Africa.py:362:80: E501 line too long (134 > 79 characters)
+./worldcup26/qualifying/Africa.py:364:80: E501 line too long (134 > 79 characters)
+./worldcup26/qualifying/Africa.py:368:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/Africa.py:369:80: E501 line too long (106 > 79 characters)
+./worldcup26/qualifying/Africa.py:371:80: E501 line too long (150 > 79 characters)
+./worldcup26/qualifying/Africa.py:376:47: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:376:80: E501 line too long (83 > 79 characters)
+./worldcup26/qualifying/Africa.py:378:80: E501 line too long (100 > 79 characters)
+./worldcup26/qualifying/Africa.py:379:11: F541 f-string is missing placeholders
+./worldcup26/qualifying/Africa.py:379:80: E501 line too long (162 > 79 characters)
+./worldcup26/qualifying/Africa.py:380:11: F541 f-string is missing placeholders
+./worldcup26/qualifying/Africa.py:380:80: E501 line too long (142 > 79 characters)
+./worldcup26/qualifying/Africa.py:383:80: E501 line too long (92 > 79 characters)
+./worldcup26/qualifying/Africa.py:388:80: E501 line too long (100 > 79 characters)
+./worldcup26/qualifying/Africa.py:392:80: E501 line too long (95 > 79 characters)
+./worldcup26/qualifying/Africa.py:393:80: E501 line too long (109 > 79 characters)
+./worldcup26/qualifying/Africa.py:397:80: E501 line too long (97 > 79 characters)
+./worldcup26/qualifying/Africa.py:404:80: E501 line too long (101 > 79 characters)
+./worldcup26/qualifying/Africa.py:409:1: E305 expected 2 blank lines after class or function definition, found 1
+./worldcup26/qualifying/Africa.py:410:80: E501 line too long (82 > 79 characters)
+./worldcup26/qualifying/Africa.py:412:80: E501 line too long (80 > 79 characters)
+./worldcup26/qualifying/Africa.py:418:57: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:418:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/Africa.py:425:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/Africa.py:429:80: E501 line too long (118 > 79 characters)
+./worldcup26/qualifying/Africa.py:430:80: E501 line too long (138 > 79 characters)
+./worldcup26/qualifying/Africa.py:431:80: E501 line too long (118 > 79 characters)
+./worldcup26/qualifying/Africa.py:432:80: E501 line too long (117 > 79 characters)
+./worldcup26/qualifying/Africa.py:434:80: E501 line too long (119 > 79 characters)
+./worldcup26/qualifying/Africa.py:441:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/Africa.py:444:80: E501 line too long (114 > 79 characters)
+./worldcup26/qualifying/Africa.py:446:80: E501 line too long (100 > 79 characters)
+./worldcup26/qualifying/Africa.py:447:80: E501 line too long (93 > 79 characters)
+./worldcup26/qualifying/Africa.py:448:80: E501 line too long (118 > 79 characters)
+./worldcup26/qualifying/Africa.py:450:80: E501 line too long (97 > 79 characters)
+./worldcup26/qualifying/Africa.py:455:80: E501 line too long (80 > 79 characters)
+./worldcup26/qualifying/Africa.py:456:80: E501 line too long (98 > 79 characters)
+./worldcup26/qualifying/Africa.py:457:80: E501 line too long (92 > 79 characters)
+./worldcup26/qualifying/Africa.py:460:80: E501 line too long (112 > 79 characters)
+./worldcup26/qualifying/Africa.py:461:80: E501 line too long (91 > 79 characters)
+./worldcup26/qualifying/Africa.py:473:80: E501 line too long (102 > 79 characters)
+./worldcup26/qualifying/Africa.py:474:60: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:474:80: E501 line too long (86 > 79 characters)
+./worldcup26/qualifying/Africa.py:476:80: E501 line too long (86 > 79 characters)
+./worldcup26/qualifying/Africa.py:478:80: E501 line too long (103 > 79 characters)
+./worldcup26/qualifying/Africa.py:479:80: E501 line too long (98 > 79 characters)
+./worldcup26/qualifying/Africa.py:481:80: E501 line too long (92 > 79 characters)
+./worldcup26/qualifying/Africa.py:484:80: E501 line too long (85 > 79 characters)
+./worldcup26/qualifying/Africa.py:486:80: E501 line too long (85 > 79 characters)
+./worldcup26/qualifying/Africa.py:488:80: E501 line too long (85 > 79 characters)
+./worldcup26/qualifying/Africa.py:489:80: E501 line too long (85 > 79 characters)
+./worldcup26/qualifying/Africa.py:491:80: E501 line too long (101 > 79 characters)
+./worldcup26/qualifying/Africa.py:492:80: E501 line too long (101 > 79 characters)
+./worldcup26/qualifying/Africa.py:493:80: E501 line too long (86 > 79 characters)
+./worldcup26/qualifying/Africa.py:494:80: E501 line too long (86 > 79 characters)
+./worldcup26/qualifying/Africa.py:495:80: E501 line too long (89 > 79 characters)
+./worldcup26/qualifying/Africa.py:496:80: E501 line too long (89 > 79 characters)
+./worldcup26/qualifying/Africa.py:522:80: E501 line too long (118 > 79 characters)
+./worldcup26/qualifying/Africa.py:531:80: E501 line too long (122 > 79 characters)
+./worldcup26/qualifying/Africa.py:535:80: E501 line too long (107 > 79 characters)
+./worldcup26/qualifying/Africa.py:536:80: E501 line too long (82 > 79 characters)
+./worldcup26/qualifying/Africa.py:541:80: E501 line too long (94 > 79 characters)
+./worldcup26/qualifying/Africa.py:547:26: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:548:80: E501 line too long (148 > 79 characters)
+./worldcup26/qualifying/Africa.py:553:80: E501 line too long (116 > 79 characters)
+./worldcup26/qualifying/Africa.py:554:80: E501 line too long (105 > 79 characters)
+./worldcup26/qualifying/Africa.py:556:80: E501 line too long (105 > 79 characters)
+./worldcup26/qualifying/Africa.py:558:80: E501 line too long (108 > 79 characters)
+./worldcup26/qualifying/Africa.py:564:22: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:565:80: E501 line too long (158 > 79 characters)
+./worldcup26/qualifying/Africa.py:570:51: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Africa.py:570:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/Africa.py:572:80: E501 line too long (104 > 79 characters)
+./worldcup26/qualifying/Africa.py:573:15: F541 f-string is missing placeholders
+./worldcup26/qualifying/Africa.py:573:80: E501 line too long (178 > 79 characters)
+./worldcup26/qualifying/Africa.py:574:15: F541 f-string is missing placeholders
+./worldcup26/qualifying/Africa.py:574:80: E501 line too long (146 > 79 characters)
+./worldcup26/qualifying/Africa.py:577:80: E501 line too long (96 > 79 characters)
+./worldcup26/qualifying/Africa.py:582:80: E501 line too long (104 > 79 characters)
+./worldcup26/qualifying/Africa.py:586:80: E501 line too long (99 > 79 characters)
+./worldcup26/qualifying/Africa.py:587:80: E501 line too long (113 > 79 characters)
+./worldcup26/qualifying/Africa.py:591:80: E501 line too long (101 > 79 characters)
+./worldcup26/qualifying/Africa.py:598:80: E501 line too long (105 > 79 characters)
+./worldcup26/qualifying/Africa.py:603:5: E303 too many blank lines (2)
+./worldcup26/qualifying/Africa.py:604:80: E501 line too long (92 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:2:1: F401 'math' imported but unused
+./worldcup26/qualifying/NorthAmerica.py:10:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:19:80: E501 line too long (92 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:20:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/NorthAmerica.py:21:25: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthAmerica.py:24:1: E305 expected 2 blank lines after class or function definition, found 1
+./worldcup26/qualifying/NorthAmerica.py:35:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/NorthAmerica.py:37:80: E501 line too long (102 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:38:72: W291 trailing whitespace
+./worldcup26/qualifying/NorthAmerica.py:44:80: E501 line too long (98 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:56:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthAmerica.py:68:44: W291 trailing whitespace
+./worldcup26/qualifying/NorthAmerica.py:70:14: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthAmerica.py:73:36: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthAmerica.py:73:61: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthAmerica.py:73:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:78:37: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthAmerica.py:87:44: W291 trailing whitespace
+./worldcup26/qualifying/NorthAmerica.py:89:14: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthAmerica.py:92:36: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthAmerica.py:92:61: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthAmerica.py:92:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:93:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthAmerica.py:98:80: E501 line too long (92 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:99:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/NorthAmerica.py:109:80: E501 line too long (120 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:110:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthAmerica.py:118:80: E501 line too long (111 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:124:26: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthAmerica.py:125:28: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthAmerica.py:126:17: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthAmerica.py:132:26: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthAmerica.py:133:28: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthAmerica.py:134:17: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthAmerica.py:137:80: E501 line too long (172 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:137:112: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthAmerica.py:143:26: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthAmerica.py:144:28: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthAmerica.py:145:17: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthAmerica.py:146:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthAmerica.py:151:26: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthAmerica.py:152:28: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthAmerica.py:153:17: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthAmerica.py:158:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthAmerica.py:164:18: W291 trailing whitespace
+./worldcup26/qualifying/NorthAmerica.py:165:29: W291 trailing whitespace
+./worldcup26/qualifying/NorthAmerica.py:166:38: W291 trailing whitespace
+./worldcup26/qualifying/NorthAmerica.py:170:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthAmerica.py:176:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:186:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthAmerica.py:190:1: E305 expected 2 blank lines after class or function definition, found 1
+./worldcup26/qualifying/NorthAmerica.py:196:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:199:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:209:47: W291 trailing whitespace
+./worldcup26/qualifying/NorthAmerica.py:216:80: E501 line too long (88 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:217:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthAmerica.py:222:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:223:80: E501 line too long (113 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:224:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthAmerica.py:225:80: E501 line too long (93 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:226:80: E501 line too long (89 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:229:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:234:80: E501 line too long (101 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:235:80: E501 line too long (169 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:236:80: E501 line too long (80 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:237:80: E501 line too long (103 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:239:80: E501 line too long (108 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:240:80: E501 line too long (176 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:240:156: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthAmerica.py:246:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:247:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthAmerica.py:250:80: E501 line too long (89 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:251:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthAmerica.py:258:80: E501 line too long (116 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:260:80: E501 line too long (120 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:261:80: E501 line too long (120 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:263:80: E501 line too long (123 > 79 characters)
+./worldcup26/qualifying/NorthAmerica.py:264:1: W391 blank line at end of file
+./worldcup26/qualifying/NorthamericaGUI.py:2:1: F401 'math' imported but unused
+./worldcup26/qualifying/NorthamericaGUI.py:7:1: F401 'time' imported but unused
+./worldcup26/qualifying/NorthamericaGUI.py:7:12: W291 trailing whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:13:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:22:80: E501 line too long (92 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:23:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/NorthamericaGUI.py:24:25: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:27:1: E305 expected 2 blank lines after class or function definition, found 1
+./worldcup26/qualifying/NorthamericaGUI.py:38:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/NorthamericaGUI.py:40:80: E501 line too long (102 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:41:72: W291 trailing whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:47:80: E501 line too long (98 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:59:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:71:44: W291 trailing whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:73:14: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:76:36: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:76:61: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:76:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:81:37: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:90:44: W291 trailing whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:92:14: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:95:36: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:95:61: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:95:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:96:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:99:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:100:80: E501 line too long (85 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:101:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/NorthamericaGUI.py:110:80: E501 line too long (120 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:111:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:112:80: E501 line too long (96 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:113:80: E501 line too long (106 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:116:80: E501 line too long (107 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:118:34: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:119:34: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:120:34: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:121:34: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:122:34: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:128:80: E501 line too long (88 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:138:51: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:142:80: E501 line too long (92 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:143:80: E501 line too long (99 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:144:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:153:23: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:154:25: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:155:17: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:161:23: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:162:25: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:163:17: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:167:80: E501 line too long (82 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:169:80: E501 line too long (88 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:176:18: W291 trailing whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:177:29: W291 trailing whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:178:38: W291 trailing whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:183:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:184:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:193:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:196:80: E501 line too long (103 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:197:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/NorthamericaGUI.py:207:80: E501 line too long (120 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:208:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:216:80: E501 line too long (111 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:222:26: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:223:28: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:224:17: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:230:26: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:231:28: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:232:17: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:235:80: E501 line too long (172 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:235:112: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:241:26: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:242:28: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:243:17: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:244:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:249:26: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:250:28: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:251:17: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:256:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:262:18: W291 trailing whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:263:29: W291 trailing whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:264:38: W291 trailing whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:268:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:274:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:284:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:288:1: E305 expected 2 blank lines after class or function definition, found 1
+./worldcup26/qualifying/NorthamericaGUI.py:294:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:297:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:307:47: W291 trailing whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:314:80: E501 line too long (98 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:315:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:320:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:321:80: E501 line too long (113 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:322:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:326:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:331:80: E501 line too long (101 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:332:80: E501 line too long (169 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:333:80: E501 line too long (80 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:334:80: E501 line too long (103 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:336:80: E501 line too long (108 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:337:80: E501 line too long (155 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:343:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:344:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:347:80: E501 line too long (89 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:348:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:355:80: E501 line too long (116 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:357:80: E501 line too long (120 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:358:80: E501 line too long (120 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:360:80: E501 line too long (123 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:367:80: E501 line too long (156 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:379:50: W291 trailing whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:386:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:389:49: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:389:80: E501 line too long (80 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:390:80: E501 line too long (108 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:393:24: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:394:25: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:398:61: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:398:80: E501 line too long (83 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:403:70: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:403:80: E501 line too long (138 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:405:80: E501 line too long (94 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:407:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:412:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:413:80: E501 line too long (80 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:415:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:420:24: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:421:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:423:80: E501 line too long (125 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:426:24: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:430:29: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:431:21: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:432:42: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:434:27: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:435:42: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:436:14: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:437:42: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:438:38: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:443:80: E501 line too long (107 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:443:108: W291 trailing whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:444:80: E501 line too long (83 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:445:80: E501 line too long (137 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:445:121: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:449:80: E501 line too long (110 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:449:111: W291 trailing whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:450:80: E501 line too long (106 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:450:94: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:452:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/NorthamericaGUI.py:453:32: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:455:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:459:19: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:459:80: E501 line too long (85 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:464:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:465:60: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:465:80: E501 line too long (96 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:466:60: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:466:80: E501 line too long (91 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:474:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:479:80: E501 line too long (95 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:480:80: E501 line too long (88 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:482:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:484:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:492:40: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:493:25: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/NorthamericaGUI.py:496:55: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:497:49: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:497:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:500:13: E303 too many blank lines (2)
+./worldcup26/qualifying/NorthamericaGUI.py:501:80: E501 line too long (96 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:503:80: E501 line too long (104 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:505:44: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:512:80: E501 line too long (113 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:512:92: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:513:80: E501 line too long (112 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:513:86: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:526:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:528:80: E501 line too long (159 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:531:18: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:534:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:538:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:542:60: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:542:80: E501 line too long (91 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:543:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:544:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:548:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:552:1: W293 blank line contains whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:553:27: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:558:80: E501 line too long (92 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:560:42: E261 at least two spaces before inline comment
+./worldcup26/qualifying/NorthamericaGUI.py:560:80: E501 line too long (101 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:564:80: E501 line too long (88 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:565:80: E501 line too long (88 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:566:80: E501 line too long (83 > 79 characters)
+./worldcup26/qualifying/NorthamericaGUI.py:568:76: W291 trailing whitespace
+./worldcup26/qualifying/NorthamericaGUI.py:569:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/Southamerica.py:6:80: E501 line too long (86 > 79 characters)
+./worldcup26/qualifying/Southamerica.py:20:80: E501 line too long (97 > 79 characters)
+./worldcup26/qualifying/Southamerica.py:58:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/Southamerica.py:78:24: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Southamerica.py:86:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/Southamerica.py:98:37: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Southamerica.py:99:55: E231 missing whitespace after ','
+./worldcup26/qualifying/Southamerica.py:105:37: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Southamerica.py:106:55: E231 missing whitespace after ','
+./worldcup26/qualifying/Southamerica.py:108:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/Southamerica.py:111:37: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Southamerica.py:113:32: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Southamerica.py:114:59: E231 missing whitespace after ','
+./worldcup26/qualifying/Southamerica.py:117:5: E303 too many blank lines (2)
+./worldcup26/qualifying/Southamerica.py:119:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/Southamerica.py:121:80: E501 line too long (125 > 79 characters)
+./worldcup26/qualifying/Southamerica.py:125:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/Southamerica.py:125:80: E501 line too long (80 > 79 characters)
+./worldcup26/qualifying/Southamerica.py:130:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/Southamerica.py:131:80: E501 line too long (93 > 79 characters)
+./worldcup26/qualifying/Southamerica.py:134:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/Southamerica.py:135:80: E501 line too long (92 > 79 characters)
+./worldcup26/qualifying/Southamerica.py:138:80: E501 line too long (80 > 79 characters)
+./worldcup26/qualifying/Southamerica.py:167:49: E261 at least two spaces before inline comment
+./worldcup26/qualifying/Southamerica.py:167:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/Southamerica.py:169:80: E501 line too long (105 > 79 characters)
+./worldcup26/qualifying/Southamerica.py:172:80: E501 line too long (92 > 79 characters)
+./worldcup26/qualifying/Southamerica.py:177:80: E501 line too long (94 > 79 characters)
+./worldcup26/qualifying/Southamerica.py:182:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/Southamerica.py:186:1: E305 expected 2 blank lines after class or function definition, found 1
+./worldcup26/qualifying/Southamerica.py:187:80: E501 line too long (85 > 79 characters)
+./worldcup26/qualifying/Southamerica.py:188:1: W391 blank line at end of file
+./worldcup26/qualifying/asia.py:4:1: F401 'math' imported but unused
+./worldcup26/qualifying/asia.py:8:80: E501 line too long (114 > 79 characters)
+./worldcup26/qualifying/asia.py:9:80: E501 line too long (88 > 79 characters)
+./worldcup26/qualifying/asia.py:10:80: E501 line too long (99 > 79 characters)
+./worldcup26/qualifying/asia.py:15:80: E501 line too long (89 > 79 characters)
+./worldcup26/qualifying/asia.py:16:80: E501 line too long (89 > 79 characters)
+./worldcup26/qualifying/asia.py:17:29: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:21:37: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:22:80: E501 line too long (88 > 79 characters)
+./worldcup26/qualifying/asia.py:29:80: E501 line too long (85 > 79 characters)
+./worldcup26/qualifying/asia.py:33:80: E501 line too long (82 > 79 characters)
+./worldcup26/qualifying/asia.py:34:80: E501 line too long (98 > 79 characters)
+./worldcup26/qualifying/asia.py:39:80: E501 line too long (102 > 79 characters)
+./worldcup26/qualifying/asia.py:40:23: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:42:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/asia.py:43:80: E501 line too long (91 > 79 characters)
+./worldcup26/qualifying/asia.py:45:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/asia.py:46:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/asia.py:55:80: E501 line too long (82 > 79 characters)
+./worldcup26/qualifying/asia.py:56:23: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:57:80: E501 line too long (82 > 79 characters)
+./worldcup26/qualifying/asia.py:71:80: E501 line too long (92 > 79 characters)
+./worldcup26/qualifying/asia.py:72:23: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:74:80: E501 line too long (80 > 79 characters)
+./worldcup26/qualifying/asia.py:75:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/asia.py:90:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/asia.py:91:47: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:93:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/asia.py:98:80: E501 line too long (115 > 79 characters)
+./worldcup26/qualifying/asia.py:98:85: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:99:21: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:103:25: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/asia.py:103:53: E702 multiple statements on one line (semicolon)
+./worldcup26/qualifying/asia.py:104:25: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/asia.py:104:53: E702 multiple statements on one line (semicolon)
+./worldcup26/qualifying/asia.py:106:23: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/asia.py:107:9: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/asia.py:107:38: E702 multiple statements on one line (semicolon)
+./worldcup26/qualifying/asia.py:107:63: E702 multiple statements on one line (semicolon)
+./worldcup26/qualifying/asia.py:107:80: E501 line too long (91 > 79 characters)
+./worldcup26/qualifying/asia.py:110:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/asia.py:119:40: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:126:10: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:127:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/asia.py:130:36: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/asia.py:130:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/asia.py:131:27: E701 multiple statements on one line (colon)
+./worldcup26/qualifying/asia.py:131:71: E231 missing whitespace after ','
+./worldcup26/qualifying/asia.py:131:74: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:131:80: E501 line too long (94 > 79 characters)
+./worldcup26/qualifying/asia.py:143:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/asia.py:144:80: E501 line too long (80 > 79 characters)
+./worldcup26/qualifying/asia.py:146:80: E501 line too long (124 > 79 characters)
+./worldcup26/qualifying/asia.py:150:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/asia.py:152:80: E501 line too long (83 > 79 characters)
+./worldcup26/qualifying/asia.py:155:80: E501 line too long (95 > 79 characters)
+./worldcup26/qualifying/asia.py:175:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/asia.py:177:80: E501 line too long (85 > 79 characters)
+./worldcup26/qualifying/asia.py:180:80: E501 line too long (109 > 79 characters)
+./worldcup26/qualifying/asia.py:180:86: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:190:10: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:190:80: E501 line too long (108 > 79 characters)
+./worldcup26/qualifying/asia.py:191:38: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:191:80: E501 line too long (80 > 79 characters)
+./worldcup26/qualifying/asia.py:193:40: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:193:80: E501 line too long (82 > 79 characters)
+./worldcup26/qualifying/asia.py:195:14: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:195:80: E501 line too long (91 > 79 characters)
+./worldcup26/qualifying/asia.py:196:80: E501 line too long (96 > 79 characters)
+./worldcup26/qualifying/asia.py:200:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/asia.py:212:80: E501 line too long (95 > 79 characters)
+./worldcup26/qualifying/asia.py:219:59: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:219:80: E501 line too long (94 > 79 characters)
+./worldcup26/qualifying/asia.py:227:80: E501 line too long (101 > 79 characters)
+./worldcup26/qualifying/asia.py:229:43: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:229:80: E501 line too long (83 > 79 characters)
+./worldcup26/qualifying/asia.py:242:80: E501 line too long (106 > 79 characters)
+./worldcup26/qualifying/asia.py:251:80: E501 line too long (157 > 79 characters)
+./worldcup26/qualifying/asia.py:251:92: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:271:80: E501 line too long (106 > 79 characters)
+./worldcup26/qualifying/asia.py:280:80: E501 line too long (91 > 79 characters)
+./worldcup26/qualifying/asia.py:304:80: E501 line too long (105 > 79 characters)
+./worldcup26/qualifying/asia.py:308:80: E501 line too long (114 > 79 characters)
+./worldcup26/qualifying/asia.py:311:80: E501 line too long (100 > 79 characters)
+./worldcup26/qualifying/asia.py:312:11: F541 f-string is missing placeholders
+./worldcup26/qualifying/asia.py:312:80: E501 line too long (112 > 79 characters)
+./worldcup26/qualifying/asia.py:313:11: F541 f-string is missing placeholders
+./worldcup26/qualifying/asia.py:313:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/asia.py:318:57: E261 at least two spaces before inline comment
+./worldcup26/qualifying/asia.py:318:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/asia.py:320:80: E501 line too long (109 > 79 characters)
+./worldcup26/qualifying/asia.py:324:80: E501 line too long (86 > 79 characters)
+./worldcup26/qualifying/asia.py:325:80: E501 line too long (116 > 79 characters)
+./worldcup26/qualifying/asia.py:330:1: E305 expected 2 blank lines after class or function definition, found 1
+./worldcup26/qualifying/ofc.py:3:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/ofc.py:5:80: E501 line too long (85 > 79 characters)
+./worldcup26/qualifying/ofc.py:14:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/ofc.py:20:80: E501 line too long (100 > 79 characters)
+./worldcup26/qualifying/ofc.py:21:11: F541 f-string is missing placeholders
+./worldcup26/qualifying/ofc.py:21:80: E501 line too long (103 > 79 characters)
+./worldcup26/qualifying/ofc.py:23:80: E501 line too long (146 > 79 characters)
+./worldcup26/qualifying/ofc.py:24:11: F541 f-string is missing placeholders
+./worldcup26/qualifying/ofc.py:24:80: E501 line too long (121 > 79 characters)
+./worldcup26/qualifying/ofc.py:25:80: E501 line too long (154 > 79 characters)
+./worldcup26/qualifying/ofc.py:26:11: F541 f-string is missing placeholders
+./worldcup26/qualifying/ofc.py:26:80: E501 line too long (96 > 79 characters)
+./worldcup26/qualifying/ofc.py:28:80: E501 line too long (101 > 79 characters)
+./worldcup26/qualifying/ofc.py:29:80: E501 line too long (102 > 79 characters)
+./worldcup26/qualifying/ofc.py:30:26: E261 at least two spaces before inline comment
+./worldcup26/qualifying/ofc.py:41:80: E501 line too long (86 > 79 characters)
+./worldcup26/qualifying/ofc.py:42:80: E501 line too long (91 > 79 characters)
+./worldcup26/qualifying/ofc.py:43:80: E501 line too long (105 > 79 characters)
+./worldcup26/qualifying/uefa.py:4:1: F401 'math' imported but unused
+./worldcup26/qualifying/uefa.py:7:80: E501 line too long (82 > 79 characters)
+./worldcup26/qualifying/uefa.py:8:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/uefa.py:9:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/uefa.py:11:80: E501 line too long (83 > 79 characters)
+./worldcup26/qualifying/uefa.py:12:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/uefa.py:13:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/uefa.py:15:80: E501 line too long (80 > 79 characters)
+./worldcup26/qualifying/uefa.py:16:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/uefa.py:20:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/uefa.py:21:80: E501 line too long (86 > 79 characters)
+./worldcup26/qualifying/uefa.py:22:80: E501 line too long (85 > 79 characters)
+./worldcup26/qualifying/uefa.py:37:80: E501 line too long (93 > 79 characters)
+./worldcup26/qualifying/uefa.py:40:80: E501 line too long (161 > 79 characters)
+./worldcup26/qualifying/uefa.py:57:80: E501 line too long (81 > 79 characters)
+./worldcup26/qualifying/uefa.py:87:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/uefa.py:98:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/uefa.py:113:80: E501 line too long (80 > 79 characters)
+./worldcup26/qualifying/uefa.py:299:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/uefa.py:337:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/uefa.py:340:80: E501 line too long (94 > 79 characters)
+./worldcup26/qualifying/uefa.py:347:80: E501 line too long (94 > 79 characters)
+./worldcup26/qualifying/uefa.py:354:80: E501 line too long (90 > 79 characters)
+./worldcup26/qualifying/uefa.py:368:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/uefa.py:370:80: E501 line too long (125 > 79 characters)
+./worldcup26/qualifying/uefa.py:374:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/uefa.py:374:80: E501 line too long (82 > 79 characters)
+./worldcup26/qualifying/uefa.py:376:1: W293 blank line contains whitespace
+./worldcup26/qualifying/uefa.py:390:1: W293 blank line contains whitespace
+./worldcup26/qualifying/uefa.py:401:1: E302 expected 2 blank lines, found 1
+./worldcup26/qualifying/uefa.py:403:1: W293 blank line contains whitespace
+./worldcup26/qualifying/uefa.py:409:80: E501 line too long (118 > 79 characters)
+./worldcup26/qualifying/uefa.py:420:1: W293 blank line contains whitespace
+./worldcup26/qualifying/uefa.py:421:80: E501 line too long (113 > 79 characters)
+./worldcup26/qualifying/uefa.py:424:78: E225 missing whitespace around operator
+./worldcup26/qualifying/uefa.py:424:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/uefa.py:425:78: E225 missing whitespace around operator
+./worldcup26/qualifying/uefa.py:425:80: E501 line too long (87 > 79 characters)
+./worldcup26/qualifying/uefa.py:426:79: E225 missing whitespace around operator
+./worldcup26/qualifying/uefa.py:426:80: E501 line too long (89 > 79 characters)
+./worldcup26/qualifying/uefa.py:434:1: W293 blank line contains whitespace
+./worldcup26/qualifying/uefa.py:441:1: W293 blank line contains whitespace
+./worldcup26/qualifying/uefa.py:447:69: E502 the backslash is redundant between brackets
+./worldcup26/qualifying/uefa.py:448:69: E502 the backslash is redundant between brackets
+./worldcup26/qualifying/uefa.py:449:69: E502 the backslash is redundant between brackets
+./worldcup26/qualifying/uefa.py:452:1: W293 blank line contains whitespace
+./worldcup26/qualifying/uefa.py:458:1: W293 blank line contains whitespace
+./worldcup26/qualifying/uefa.py:464:80: E501 line too long (86 > 79 characters)
+./worldcup26/qualifying/uefa.py:467:1: W293 blank line contains whitespace
+./worldcup26/qualifying/uefa.py:469:17: E129 visually indented line with same indent as next logical line
+./worldcup26/qualifying/uefa.py:492:5: E303 too many blank lines (2)
+./worldcup26/qualifying/uefa.py:496:80: E501 line too long (103 > 79 characters)
+./worldcup26/qualifying/uefa.py:501:1: W293 blank line contains whitespace
+./worldcup26/qualifying/uefa.py:508:80: E501 line too long (117 > 79 characters)
+./worldcup26/qualifying/uefa.py:514:1: W293 blank line contains whitespace
+./worldcup26/qualifying/uefa.py:526:34: W291 trailing whitespace
+./worldcup26/qualifying/uefa.py:535:5: F841 local variable 'all_simulated_group_results' is assigned to but never used
+./worldcup26/qualifying/uefa.py:538:80: E501 line too long (82 > 79 characters)
+./worldcup26/qualifying/uefa.py:539:80: E501 line too long (89 > 79 characters)
+./worldcup26/qualifying/uefa.py:543:80: E501 line too long (106 > 79 characters)
+./worldcup26/qualifying/uefa.py:546:80: E501 line too long (106 > 79 characters)
+./worldcup26/qualifying/uefa.py:556:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/uefa.py:557:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/uefa.py:577:1: W293 blank line contains whitespace
+./worldcup26/qualifying/uefa.py:580:80: E501 line too long (98 > 79 characters)
+./worldcup26/qualifying/uefa.py:581:80: E501 line too long (98 > 79 characters)
+./worldcup26/qualifying/uefa.py:582:1: W293 blank line contains whitespace
+./worldcup26/qualifying/uefa.py:592:5: E303 too many blank lines (2)
+./worldcup26/qualifying/uefa.py:594:80: E501 line too long (94 > 79 characters)
+./worldcup26/qualifying/uefa.py:599:80: E501 line too long (84 > 79 characters)
+./worldcup26/qualifying/uefa.py:600:80: E501 line too long (94 > 79 characters)
+./worldcup26/qualifying/uefa.py:610:1: W293 blank line contains whitespace
+./worldcup26/qualifying/uefa.py:611:80: E501 line too long (98 > 79 characters)
+./worldcup26/qualifying/uefa.py:624:80: E501 line too long (83 > 79 characters)
+./worldcup26/qualifying/uefa.py:624:84: W292 no newline at end of file

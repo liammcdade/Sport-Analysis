@@ -18,6 +18,7 @@ DISCOUNT = 0.9
 EPSILON_DECAY = 0.995
 MIN_EPSILON = 0.01
 
+
 class SnakeGame:
     def __init__(self):
         pygame.init()
@@ -28,7 +29,7 @@ class SnakeGame:
 
     def reset(self):
         self.direction = random.choice([(1, 0), (0, 1), (-1, 0), (0, -1)])
-        self.snake = [(WIDTH//2, HEIGHT//2)]
+        self.snake = [(WIDTH // 2, HEIGHT // 2)]
         self.spawn_food()
         self.score = 0
         return self.get_state()
@@ -81,16 +82,21 @@ class SnakeGame:
         food = self.food
         dir = self.direction
         state = (
-            dir[0], dir[1],
-            int(food[0] > head[0]), int(food[0] < head[0]),
-            int(food[1] > head[1]), int(food[1] < head[1])
+            dir[0],
+            dir[1],
+            int(food[0] > head[0]),
+            int(food[0] < head[0]),
+            int(food[1] > head[1]),
+            int(food[1] < head[1]),
         )
         return tuple(state)
 
     def render(self):
         self.display.fill((0, 0, 0))
         for segment in self.snake:
-            pygame.draw.rect(self.display, (0, 255, 0), (*segment, GRID_SIZE, GRID_SIZE))
+            pygame.draw.rect(
+                self.display, (0, 255, 0), (*segment, GRID_SIZE, GRID_SIZE)
+            )
         pygame.draw.rect(self.display, (255, 0, 0), (*self.food, GRID_SIZE, GRID_SIZE))
         pygame.display.flip()
         self.clock.tick(FPS)
@@ -125,7 +131,9 @@ class SnakeAI:
     def learn(self, old_state, action, reward, new_state):
         old_q = self.get_qs(old_state)
         max_future_q = np.max(self.get_qs(new_state))
-        old_q[action] = (1 - LEARNING_RATE) * old_q[action] + LEARNING_RATE * (reward + DISCOUNT * max_future_q)
+        old_q[action] = (1 - LEARNING_RATE) * old_q[action] + LEARNING_RATE * (
+            reward + DISCOUNT * max_future_q
+        )
         self.q_table[old_state] = old_q
 
 
@@ -150,7 +158,9 @@ if __name__ == "__main__":
 
             episode += 1
             ai.epsilon = max(MIN_EPSILON, ai.epsilon * EPSILON_DECAY)
-            print(f"Episode {episode} - Score: {game.score} - Epsilon: {ai.epsilon:.3f}")
+            print(
+                f"Episode {episode} - Score: {game.score} - Epsilon: {ai.epsilon:.3f}"
+            )
             ai.save_q_table()
 
     except KeyboardInterrupt:
