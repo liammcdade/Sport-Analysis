@@ -64,3 +64,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     start_monitoring(directory_to_monitor)
+
+#hi there
+# This script monitors all files in a specified directory and its subdirectories.   
+# It prints messages to the console when files are created, deleted, modified, or moved.
